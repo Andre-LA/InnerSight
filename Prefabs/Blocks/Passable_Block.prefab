@@ -1,119 +1,119 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "Destructable_Block",
+        "Name": "Passable_Block",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 4150442967602440635
+                "Id": 17242240699331157775
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 9792504195845511428
+                "Id": 4806351188665827229
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 14390981989648376738,
+                "Id": 1368192459649318654,
                 "Child Entity Order": [
-                    "Entity_[1532908800135192]"
+                    "Entity_[3092337084036193]"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 542538684245824261
+                "Id": 12752238571923235065
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 9170180742207067501
+                "Id": 12172286988770904999
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 7556565100871905374,
+                "Id": 11510654933698017321,
                 "IsEditorOnly": true
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 13346936704192829177
+                "Id": 12066100167066089854
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 2370424790836269417
+                "Id": 17009425172430673954
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 6407750754876493366
+                "Id": 5260479944699287744
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 17432269080197624696,
+                "Id": 4407275244804251805,
                 "Parent Entity": ""
             }
         }
     },
     "Entities": {
-        "Entity_[1532908800135192]": {
-            "Id": "Entity_[1532908800135192]",
-            "Name": "Destructable Block",
+        "Entity_[3092337084036193]": {
+            "Id": "Entity_[3092337084036193]",
+            "Name": "Passable Block",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15015205520236660533
+                    "Id": 12492942310117920272
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 3893652341588007103
+                    "Id": 15221614397312322191
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 17261337098844891637,
+                    "Id": 13286696771224959085,
                     "Child Entity Order": [
-                        "Instance_[1532883030331416]/ContainerEntity"
+                        "Instance_[3092311314232417]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 11031894581534431415
+                    "Id": 3118317186541932200
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 4886829065552651981
+                    "Id": 8847689308470836908
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 9086448344823153978,
+                    "Id": 2090440471949991908,
                     "IsEditorOnly": true
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 9147457422183592560
+                    "Id": 18128616159306912803
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 14344272525556896433
+                    "Id": 10090278722557844948
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12237541821982124965,
+                    "Id": 15189359299338555941,
                     "Parent Entity": "ContainerEntity"
                 }
             }
         }
     },
     "Instances": {
-        "Instance_[1532883030331416]": {
+        "Instance_[3092311314232417]": {
             "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
             "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1532908800135192]"
+                    "value": "../Entity_[3092337084036193]"
                 },
                 {
                     "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent",
                     "value": {
                         "$type": "EditorMaterialComponent",
-                        "Id": 10065678666427995576,
+                        "Id": 9515347735797387089,
                         "Controller": {
                             "Configuration": {
                                 "materials": [
@@ -125,7 +125,7 @@
                                         "Value": {
                                             "MaterialAsset": {
                                                 "assetId": {
-                                                    "guid": "{FD3D09E1-9B20-5761-87A2-388ADD3C966A}",
+                                                    "guid": "{65DF9715-8D50-5852-BDDF-345BF9A36AAF}",
                                                     "subId": 0
                                                 },
                                                 "loadBehavior": "QueueLoad",
@@ -143,12 +143,38 @@
                 },
                 {
                     "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent",
+                    "value": {
+                        "$type": "EditorScriptCanvasComponent",
+                        "Id": 4586515272245849778,
+                        "configuration": {
+                            "sourceHandle": {
+                                "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
+                                "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
+                            },
+                            "sourceName": "PassableBlockCtrl.scriptcanvas",
+                            "propertyOverrides": {
+                                "source": {
+                                    "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
+                                    "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
+                                },
+                                "variables": [],
+                                "entityId": [],
+                                "overrides": [],
+                                "overridesUnused": [],
+                                "dependencies": []
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
                     "value": {
                         "$type": "EditorTagComponent",
-                        "Id": 9541421553929559850,
+                        "Id": 8496739069460676994,
                         "Tags": [
-                            "Destructable"
+                            "Passable"
                         ]
                     }
                 }
