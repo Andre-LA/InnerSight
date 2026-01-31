@@ -110,214 +110,35 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent",
                     "value": {
-                        "$type": "AZ::Render::EditorMeshComponent",
-                        "Id": 9530122116494598374,
+                        "$type": "EditorMaterialComponent",
+                        "Id": 9515347735797387089,
                         "Controller": {
                             "Configuration": {
-                                "ModelAsset": {
-                                    "assetId": {
-                                        "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
-                                        "subId": 284301017
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "objects/_primitives/_box_1x1.fbx.azmodel"
-                                },
-                                "SortKey": 0,
-                                "ExcludeFromReflectionCubeMaps": false,
-                                "UseForwardPassIBLSpecular": false,
-                                "IsRayTracingEnabled": true,
-                                "IsAlwaysDynamic": false,
-                                "SupportRayIntersection": false,
-                                "LodType": 0,
-                                "LodOverride": 0,
-                                "MinimumScreenCoverage": 0.0009259259095415473,
-                                "QualityDecayRate": 0.5,
-                                "LightingChannelConfig": {
-                                    "lightingChannelFlags": [
-                                        true,
-                                        true,
-                                        true,
-                                        true,
-                                        true
-                                    ]
-                                }
-                            }
-                        },
-                        "meshStats": {}
-                    }
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.5
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent",
-                    "value": {
-                        "$type": "EditorColliderComponent",
-                        "Id": 15830819460530099530,
-                        "ColliderConfiguration": {
-                            "CollisionLayer": {
-                                "Index": 1
-                            },
-                            "CollisionGroupId": {
-                                "GroupId": "{00000000-0000-0000-0000-000000000000}"
-                            },
-                            "Visible": false,
-                            "Trigger": false,
-                            "Simulated": true,
-                            "DummySimulated": false,
-                            "InSceneQueries": true,
-                            "Exclusive": true,
-                            "Position": [
-                                0.0,
-                                0.0,
-                                0.5
-                            ],
-                            "Rotation": [
-                                0.0,
-                                0.0,
-                                0.0,
-                                1.0
-                            ],
-                            "MaterialSlots": {
-                                "Slots": [
+                                "materials": [
                                     {
-                                        "Name": "Entire object",
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{00000000-0000-0000-0000-000000000000}",
-                                                "subId": 0
+                                        "Key": {
+                                            "lodIndex": 18446744073709551615,
+                                            "materialSlotStableId": 4294967295
+                                        },
+                                        "Value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{65DF9715-8D50-5852-BDDF-345BF9A36AAF}",
+                                                    "subId": 0
+                                                },
+                                                "loadBehavior": "QueueLoad",
+                                                "assetHint": ""
                                             },
-                                            "loadBehavior": "QueueLoad",
-                                            "assetHint": ""
+                                            "PropertyOverrides": [],
+                                            "ModelUvOverrides": []
                                         }
                                     }
                                 ]
-                            },
-                            "propertyVisibilityFlags": 255,
-                            "ColliderTag": "",
-                            "RestOffset": 0.0,
-                            "ContactOffset": 0.019999999552965164
+                            }
                         },
-                        "ShapeConfiguration": {
-                            "ShapeType": 1,
-                            "Sphere": {
-                                "Scale": [
-                                    1.0,
-                                    1.0,
-                                    1.0
-                                ],
-                                "Radius": 0.5
-                            },
-                            "Box": {
-                                "Scale": [
-                                    1.0,
-                                    1.0,
-                                    1.0
-                                ],
-                                "Configuration": [
-                                    1.0,
-                                    1.0,
-                                    1.0
-                                ]
-                            },
-                            "Capsule": {
-                                "Scale": [
-                                    1.0,
-                                    1.0,
-                                    1.0
-                                ],
-                                "Height": 1.0,
-                                "Radius": 0.25
-                            },
-                            "Cylinder": {
-                                "Configuration": {
-                                    "Scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "CookedData": "",
-                                    "Type": 0
-                                },
-                                "Subdivision": 16,
-                                "Height": 1.0,
-                                "Radius": 1.0
-                            },
-                            "PhysicsAsset": {
-                                "Asset": {
-                                    "assetId": {
-                                        "guid": "{00000000-0000-0000-0000-000000000000}",
-                                        "subId": 0
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": ""
-                                },
-                                "Configuration": {
-                                    "Scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "PhysicsAsset": {
-                                        "assetId": {
-                                            "guid": "{00000000-0000-0000-0000-000000000000}",
-                                            "subId": 0
-                                        },
-                                        "loadBehavior": "PreLoad",
-                                        "assetHint": ""
-                                    },
-                                    "AssetScale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "UseMaterialsFromAsset": true,
-                                    "SubdivisionLevel": 4
-                                }
-                            },
-                            "HasNonUniformScale": false,
-                            "SubdivisionLevel": 4
-                        },
-                        "DebugDrawSettings": {
-                            "LocallyEnabled": true
-                        },
-                        "ComponentMode": {},
-                        "HasNonUniformScale": false
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorDebugDrawTextComponent",
-                    "value": {
-                        "$type": "EditorDebugDrawTextComponent",
-                        "Id": 13241805288005224447,
-                        "Element": {
-                            "Text": "Passable",
-                            "Color": [
-                                0.22923628985881805,
-                                0.2073395848274231,
-                                0.8639505505561829,
-                                1.0
-                            ],
-                            "DrawMode": 1,
-                            "WorldLocation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "TargetEntity": "",
-                            "Centered": false,
-                            "Size": 0.800000011920929
-                        },
-                        "Settings": {
-                            "VisibleInGame": true,
-                            "VisibleInEditor": true
-                        }
+                        "materialSlotsByLodEnabled": false
                     }
                 },
                 {
@@ -348,14 +169,6 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorStaticRigidBodyComponent",
-                    "value": {
-                        "$type": "EditorStaticRigidBodyComponent",
-                        "Id": 6206961003619362088
-                    }
-                },
-                {
-                    "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
                     "value": {
                         "$type": "EditorTagComponent",
@@ -364,14 +177,6 @@
                             "Passable"
                         ]
                     }
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxColliderComponent"
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent"
                 }
             ]
         }

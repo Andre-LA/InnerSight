@@ -110,32 +110,35 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorDebugDrawTextComponent",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent",
                     "value": {
-                        "$type": "EditorDebugDrawTextComponent",
-                        "Id": 11805771045345424736,
-                        "Element": {
-                            "Text": "DESTRUCT",
-                            "Color": [
-                                0.8367284536361694,
-                                0.26404210925102234,
-                                0.26404210925102234,
-                                1.0
-                            ],
-                            "DrawMode": 1,
-                            "WorldLocation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "TargetEntity": "",
-                            "Centered": false,
-                            "Size": 0.5
+                        "$type": "EditorMaterialComponent",
+                        "Id": 10065678666427995576,
+                        "Controller": {
+                            "Configuration": {
+                                "materials": [
+                                    {
+                                        "Key": {
+                                            "lodIndex": 18446744073709551615,
+                                            "materialSlotStableId": 4294967295
+                                        },
+                                        "Value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{FD3D09E1-9B20-5761-87A2-388ADD3C966A}",
+                                                    "subId": 0
+                                                },
+                                                "loadBehavior": "QueueLoad",
+                                                "assetHint": ""
+                                            },
+                                            "PropertyOverrides": [],
+                                            "ModelUvOverrides": []
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "Settings": {
-                            "VisibleInGame": true,
-                            "VisibleInEditor": true
-                        }
+                        "materialSlotsByLodEnabled": false
                     }
                 },
                 {
