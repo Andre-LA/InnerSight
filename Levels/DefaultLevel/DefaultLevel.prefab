@@ -20,17 +20,7 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Instance_[215656101610677]/ContainerEntity",
-                    "Instance_[361473650020376]/ContainerEntity",
-                    "Instance_[363092852690968]/ContainerEntity",
-                    "Entity_[9336544523361]",
-                    "Entity_[82866384630881]",
-                    "Instance_[3073525127279713]/ContainerEntity",
-                    "Instance_[3092328494101601]/ContainerEntity",
-                    "Instance_[4121290989073505]/ContainerEntity",
-                    "Instance_[4121342528681057]/ContainerEntity",
-                    "Instance_[4153142466540641]/ContainerEntity",
-                    "Instance_[36381808469207]/ContainerEntity"
+                    "Entity_[254252614493399]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -445,1862 +435,198 @@
                 }
             }
         },
-        "Entity_[82866384630881]": {
-            "Id": "Entity_[82866384630881]",
-            "Name": "Wall",
+        "Entity_[254252614493399]": {
+            "Id": "Entity_[254252614493399]",
+            "Name": "SceneManager",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15239794598096207501
+                    "Id": 13670060607561804494
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 17160110223461668171
+                    "Id": 12190566693432656504
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 6686381051224466952,
+                    "Id": 6041843406914637123,
                     "Child Entity Order": [
-                        "Instance_[27491371283553]/ContainerEntity",
-                        "Instance_[82759010448481]/ContainerEntity",
-                        "Instance_[82823434957921]/ContainerEntity",
-                        "Instance_[82780485284961]/ContainerEntity",
-                        "Instance_[82801960121441]/ContainerEntity",
-                        "Instance_[82844909794401]/ContainerEntity"
+                        "Entity_[274812622939351]"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 9201492331562176341
+                    "Id": 4142124961267836653
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 15499023056173855545
+                    "Id": 11221681396496819804
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 15613000084110473931
+                    "Id": 16820099260341197644
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 9415324705054480995
+                    "Id": 9289175087244737339
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 7459137689666424475,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{B516B9F3-EDDD-5F83-958C-3362BBC1AD4A}",
+                            "path": "Assets/ScriptCanvas/SceneManager.scriptcanvas"
+                        },
+                        "sourceName": "SceneManager.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{B516B9F3-EDDD-5F83-958C-3362BBC1AD4A}",
+                                "path": "Assets/ScriptCanvas/SceneManager.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{83CAAFFB-3A78-5BF4-AAC8-93B3771CC9EB}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZStd::vector<AzFramework::Scripts::SpawnableScriptAssetRef, allocator>"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{017B7066-1D03-4D54-82BA-6A945727E268}"
+                                    },
+                                    "VariableName": "Puzzles",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "",
+                                        "label": "Holder"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D1AC03E5-A4F8-45C7-9BA4-E917F9F8CC3D}"
+                                    },
+                                    "VariableName": "Holder",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{83CAAFFB-3A78-5BF4-AAC8-93B3771CC9EB}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZStd::vector<AzFramework::Scripts::SpawnableScriptAssetRef, allocator>",
+                                        "value": [
+                                            {
+                                                "asset": {
+                                                    "assetId": {
+                                                        "guid": "{42D354CB-288A-54BE-8EDA-27CB247BD51F}",
+                                                        "subId": 837577722
+                                                    },
+                                                    "assetHint": "prefabs/puzzles/puzzle_test.spawnable"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{017B7066-1D03-4D54-82BA-6A945727E268}"
+                                    },
+                                    "VariableName": "Puzzles",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[274812622939351]",
+                                        "label": "Holder"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D1AC03E5-A4F8-45C7-9BA4-E917F9F8CC3D}"
+                                    },
+                                    "VariableName": "Holder",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 5552273656486118235
+                    "Id": 1571210116250048930
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 10334097973025044395,
+                    "Id": 4286238511625835981,
                     "Parent Entity": "Entity_[1146574390643]"
                 }
             }
         },
-        "Entity_[9336544523361]": {
-            "Id": "Entity_[9336544523361]",
-            "Name": "Floor",
+        "Entity_[274812622939351]": {
+            "Id": "Entity_[274812622939351]",
+            "Name": "SceneHolder",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 10150720982917652813
+                    "Id": 6144067246020684820
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 13453735135530631750
+                    "Id": 17481517877341756568
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 14489309324965845874,
-                    "Child Entity Order": [
-                        "Instance_[1255012417438901]/ContainerEntity",
-                        "Instance_[6819693687905]/ContainerEntity",
-                        "Instance_[6841168524385]/ContainerEntity",
-                        "Instance_[6862643360865]/ContainerEntity",
-                        "Instance_[6884118197345]/ContainerEntity",
-                        "Instance_[6888413164641]/ContainerEntity",
-                        "Instance_[6892708131937]/ContainerEntity",
-                        "Instance_[6897003099233]/ContainerEntity",
-                        "Instance_[9018716943457]/ContainerEntity",
-                        "Instance_[8159723484257]/ContainerEntity",
-                        "Instance_[8486140998753]/ContainerEntity",
-                        "Instance_[9164745831521]/ContainerEntity",
-                        "Instance_[8146838582369]/ContainerEntity",
-                        "Instance_[8838328317025]/ContainerEntity",
-                        "Instance_[8310047339617]/ContainerEntity",
-                        "Instance_[8507615835233]/ContainerEntity",
-                        "Instance_[8821148447841]/ContainerEntity",
-                        "Instance_[9169040798817]/ContainerEntity",
-                        "Instance_[8829738382433]/ContainerEntity",
-                        "Instance_[8992947139681]/ContainerEntity",
-                        "Instance_[8155428516961]/ContainerEntity",
-                        "Instance_[9005832041569]/ContainerEntity",
-                        "Instance_[8327227208801]/ContainerEntity",
-                        "Instance_[9194810602593]/ContainerEntity",
-                        "Instance_[9177630733409]/ContainerEntity",
-                        "Instance_[8503320867937]/ContainerEntity",
-                        "Instance_[8138248647777]/ContainerEntity",
-                        "Instance_[9181925700705]/ContainerEntity",
-                        "Instance_[8662234657889]/ContainerEntity",
-                        "Instance_[8335817143393]/ContainerEntity",
-                        "Instance_[8851213218913]/ContainerEntity",
-                        "Instance_[9190515635297]/ContainerEntity",
-                        "Instance_[8151133549665]/ContainerEntity",
-                        "Instance_[9186220668001]/ContainerEntity",
-                        "Instance_[8481846031457]/ContainerEntity",
-                        "Instance_[8499025900641]/ContainerEntity",
-                        "Instance_[8825443415137]/ContainerEntity",
-                        "Instance_[8846918251617]/ContainerEntity",
-                        "Instance_[9010127008865]/ContainerEntity",
-                        "Instance_[8318637274209]/ContainerEntity",
-                        "Instance_[8842623284321]/ContainerEntity",
-                        "Instance_[8133953680481]/ContainerEntity",
-                        "Instance_[8679414527073]/ContainerEntity",
-                        "Instance_[8494730933345]/ContainerEntity",
-                        "Instance_[9173335766113]/ContainerEntity",
-                        "Instance_[8477551064161]/ContainerEntity",
-                        "Instance_[8657939690593]/ContainerEntity",
-                        "Instance_[8834033349729]/ContainerEntity",
-                        "Instance_[8142543615073]/ContainerEntity",
-                        "Instance_[8670824592481]/ContainerEntity",
-                        "Instance_[9001537074273]/ContainerEntity",
-                        "Instance_[8666529625185]/ContainerEntity",
-                        "Instance_[8331522176097]/ContainerEntity",
-                        "Instance_[8649349756001]/ContainerEntity",
-                        "Instance_[8322932241505]/ContainerEntity",
-                        "Instance_[8164018451553]/ContainerEntity",
-                        "Instance_[8490435966049]/ContainerEntity",
-                        "Instance_[9023011910753]/ContainerEntity",
-                        "Instance_[8305752372321]/ContainerEntity",
-                        "Instance_[8997242106977]/ContainerEntity",
-                        "Instance_[8653644723297]/ContainerEntity",
-                        "Instance_[8675119559777]/ContainerEntity",
-                        "Instance_[8314342306913]/ContainerEntity",
-                        "Instance_[9014421976161]/ContainerEntity"
-                    ]
+                    "Id": 12847020194497392127
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 14592780699335461841
+                    "Id": 4764799978921325072
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 9373468883883668878
+                    "Id": 14788730341732654256
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 7303264073494284240
+                    "Id": 16723652169041756760
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 14463047766653356572
+                    "Id": 18023633771016937045
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 2864719011635144743
+                    "Id": 3977470840681469911
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 11992240234829628591,
-                    "Parent Entity": "Entity_[1146574390643]"
+                    "Id": 18048439469469154690,
+                    "Parent Entity": "Entity_[254252614493399]"
                 }
             }
-        }
-    },
-    "Instances": {
-        "Instance_[1255012417438901]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[215656101610677]": {
-            "Source": "Prefabs/Protagonist.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.999999046325684
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": 89.99994659423828
-                }
-            ]
-        },
-        "Instance_[27491371283553]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[82866384630881]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[3073525127279713]": {
-            "Source": "Prefabs/Camera.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -0.7440270781517029
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": -5.748866558074951
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 15.10625457763672
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/0",
-                    "value": -48.800025939941406
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/1",
-                    "value": 25.309898376464844
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": -20.51887321472168
-                }
-            ]
-        },
-        "Instance_[3092328494101601]": {
-            "Source": "Prefabs/Blocks/Passable_Block.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[361473650020376]": {
-            "Source": "Prefabs/Blocks/Red_World_Mask.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[363092852690968]": {
-            "Source": "Prefabs/Blocks/Blue_World_Mask.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[363084262756376]/Entities/Entity_[359016928727064]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "materials/presets/macbeth/13_blue.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[36381808469207]": {
-            "Source": "Prefabs/Blocks/LadderBlock.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[36433348076759]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "materials/presets/macbeth/14_green.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[4121290989073505]": {
-            "Source": "Prefabs/Blocks/SlopeBaseStatic.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[1252169149088949]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415472
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[4121342528681057]": {
-            "Source": "Prefabs/Blocks/SlopeBaseStatic2.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[1332768505365685]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415472
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[4153142466540641]": {
-            "Source": "Prefabs/Blocks/Destructable_Block.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[1532883030331416]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "materials/presets/macbeth/09_moderate_red.azmaterial"
-                }
-            ]
-        },
-        "Instance_[6819693687905]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[6841168524385]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[6862643360865]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[6884118197345]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[6888413164641]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[6892708131937]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[6897003099233]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[8133953680481]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[8138248647777]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[8142543615073]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[8146838582369]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[8151133549665]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[8155428516961]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[8159723484257]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[8164018451553]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                }
-            ]
-        },
-        "Instance_[82759010448481]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[82866384630881]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[82780485284961]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[82866384630881]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[82801960121441]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[82866384630881]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[82823434957921]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[82866384630881]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[82844909794401]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[82866384630881]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 1.0
-                }
-            ]
-        },
-        "Instance_[8305752372321]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8310047339617]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8314342306913]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8318637274209]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8322932241505]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8327227208801]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8331522176097]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8335817143393]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 3.0
-                }
-            ]
-        },
-        "Instance_[8477551064161]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8481846031457]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8486140998753]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8490435966049]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8494730933345]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8499025900641]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8503320867937]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8507615835233]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 4.0
-                }
-            ]
-        },
-        "Instance_[8649349756001]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8653644723297]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8657939690593]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8662234657889]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8666529625185]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8670824592481]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8675119559777]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8679414527073]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 5.0
-                }
-            ]
-        },
-        "Instance_[8821148447841]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8825443415137]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8829738382433]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8834033349729]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8838328317025]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8842623284321]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8846918251617]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8851213218913]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 6.0
-                }
-            ]
-        },
-        "Instance_[8992947139681]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[8997242106977]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[9001537074273]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[9005832041569]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[9010127008865]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[9014421976161]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[9018716943457]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[9023011910753]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                }
-            ]
-        },
-        "Instance_[9164745831521]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 6.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
-        },
-        "Instance_[9169040798817]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 5.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
-        },
-        "Instance_[9173335766113]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
-        },
-        "Instance_[9177630733409]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
-        },
-        "Instance_[9181925700705]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
-        },
-        "Instance_[9186220668001]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
-        },
-        "Instance_[9190515635297]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 3.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
-        },
-        "Instance_[9194810602593]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9336544523361]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
-                }
-            ]
         }
     }
 }
