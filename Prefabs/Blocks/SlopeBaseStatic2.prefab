@@ -1,0 +1,801 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "SlopeBaseStatic2",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16850939271452825732
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 31175505637201057
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13201317115390595920,
+                "Child Entity Order": [
+                    "Entity_[1332794275169461]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16305135773883811283
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 16245866926842551562
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12472735302494129992,
+                "IsEditorOnly": true
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1013288579032033996
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8259510639643812294
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8072443453843627774
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16242950891259555066,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1332794275169461]": {
+            "Id": "Entity_[1332794275169461]",
+            "Name": "SlopeBaseStatic2",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11418127328360225154
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4085596482015127731
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12480971261811387967,
+                    "Child Entity Order": [
+                        "Instance_[1332768505365685]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2777082602042676334
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7793581384475124073
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12891945029172145244,
+                    "IsEditorOnly": true
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15458154522026513991
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2706247121166086198
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2197501634830801505,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[1332768505365685]": {
+            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1332794275169461]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxColliderComponent/MeshData/CookedData",
+                    "value": "TlhTAU1FU0gPAAAAAAAAAAYAAAAKAAAAEAAAAAAAAL8AAAA/AAAAAAAAAL8AAAC/AAAAPwAAAL8AAAA/AAAAPwAAAL8AAAC/AAAAAAAAAD8AAAA/AAAAAAAAAD8AAAC/AAAAAAAAAD8AAAC/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAC/AACAPwAAAD8AAAA/AACAPwABAgADAQQCBwQAAgMFBgAFAwAEBQUEBwUHBgEGCAcCCQIBCAIICQMGAQYHCQYJCBMAAAAAAQkIBAMCBgcMEBITBQ4PUlRSRQIAAADFIAC/xSAAv28SA7oAAAAAxSAAP8UgAD9iEIA/AAAAAAAAgD8AAIA/AACAPwAAgD9FIYA3RSGAN0QhgDcAAAAABAAAAAEAAAABAAAABAAAAAEAAAAAAAAAxSAAv3e+/z7FIAC/d77/PsUgAL/FIAC/xSAAv8UgAL9vEgO6bxIDum8SA7p3vv8+xSAAP8UgAD/FIAA/xSAAP8UgAD/FIAA/xSAAP8UgAD/FIAA/xSAAP2IQgD9iEIA/DQAAAOMAAAApAQAAwwEAAAAAgDQAAAC/AAAAvwAAAAAAAAA/AAAAPwAAgD8QAAAAMBggGBgwGBggMDAYMCAQMA=="
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/WhiteBoxData",
+                    "value": "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"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex1/Position/1",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex1/Position/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex1/UV/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex1/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex2/Position/0",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex3/Position/0",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Normal/0",
+                    "value": -1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Normal/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex1/Position/1",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex1/Position/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex1/UV/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex1/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/Position/0",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/Position/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/UV/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Normal/0",
+                    "value": -1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Normal/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/4/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/4/Vertex3/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex2/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex3/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/6/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/6/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex2/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Vertex3/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex2/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex3/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex1/Position/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex1/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex1/Position/2",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex1/UV/0",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex1/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex2/Position/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex2/Position/2",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex2/UV/0",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex3/Position/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex3/Position/1",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex3/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Normal/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex1/Position/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex1/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex1/Position/2",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex1/UV/0",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex1/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex2/Position/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex2/Position/1",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex2/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex3/Position/0",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Normal/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/12",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                -0.5,
+                                -0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                1.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                0.0,
+                                -0.5
+                            ]
+                        },
+                        "Normal": [
+                            0.0,
+                            -1.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/13",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                -0.5,
+                                -0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                -0.5,
+                                1.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                -0.5,
+                                1.0
+                            ]
+                        },
+                        "Normal": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/14",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                -0.5,
+                                0.0
+                            ]
+                        },
+                        "Normal": [
+                            1.0,
+                            0.0,
+                            -0.0
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/15",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                -0.5,
+                                0.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                -0.5,
+                                1.0
+                            ]
+                        },
+                        "Normal": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/16",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                -0.5,
+                                0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                1.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                0.0,
+                                -0.5
+                            ]
+                        },
+                        "Normal": [
+                            0.0,
+                            1.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/17",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                -0.5,
+                                0.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                -0.5,
+                                0.0
+                            ]
+                        },
+                        "Normal": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/18",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                -0.5,
+                                0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                1.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                -0.5,
+                                -0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "Normal": [
+                            -0.4472135901451111,
+                            0.0,
+                            0.8944271802902222
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/19",
+                    "value": {
+                        "Vertex1": {
+                            "Position": [
+                                -0.5,
+                                0.5,
+                                0.5
+                            ],
+                            "UV": [
+                                1.0,
+                                0.0
+                            ]
+                        },
+                        "Vertex2": {
+                            "Position": [
+                                0.5,
+                                -0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        "Vertex3": {
+                            "Position": [
+                                0.5,
+                                0.5,
+                                1.0
+                            ],
+                            "UV": [
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "Normal": [
+                            -0.4472135901451111,
+                            0.0,
+                            0.8944271802902222
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Protagonist",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5127355466815513987
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 691452517586748103
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17716685971208408468,
+                "Child Entity Order": [
+                    "Entity_[215664691545269]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10756193431813665774
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 11458539676329435309
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14504821826595008504
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11517187537963275259
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14145040087263935321
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15434799206264252390
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1382495272957646537,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[215664691545269]": {
+            "Id": "Entity_[215664691545269]",
+            "Name": "Protagonist",
+            "Components": {
+                "Component_[10789351944715265527]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10789351944715265527
+                },
+                "Component_[12037033284781049225]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12037033284781049225
+                },
+                "Component_[13759153306105970079]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13759153306105970079
+                },
+                "Component_[14135560884830586279]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14135560884830586279
+                },
+                "Component_[16247165675903986673]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16247165675903986673
+                },
+                "Component_[18082433625958885247]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18082433625958885247
+                },
+                "Component_[6472623349872972660]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6472623349872972660,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6495255223970673916]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6495255223970673916,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 281415304
+                                },
+                                "assetHint": "objects/shaderball/shaderball_default_1m.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8550141614185782969]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8550141614185782969
+                },
+                "Component_[9439770997198325425]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9439770997198325425
+                },
+                "EditorCharacterControllerComponent": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 8375867755902255192,
+                    "Configuration": {
+                        "entityId": "",
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaximumSlopeAngle": 50.0
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Radius": 0.30000001192092896
+                        }
+                    }
+                },
+                "EditorCharacterGameplayComponent": {
+                    "$type": "EditorCharacterGameplayComponent",
+                    "Id": 13370452886593363166
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 14203366068633981469,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{0B08B2AA-48E8-58DB-9234-4B085608C48B}",
+                            "path": "Assets/ScriptCanvas/ProtagonistCtrl.scriptcanvas"
+                        },
+                        "sourceName": "ProtagonistCtrl.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{0B08B2AA-48E8-58DB-9234-4B085608C48B}",
+                                "path": "Assets/ScriptCanvas/ProtagonistCtrl.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
+                                        "label": "MovingSpeed"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{484DED15-CCFD-4803-9DBD-21B025886B44}"
+                                    },
+                                    "VariableName": "MovingSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
+                                        "label": "RotationDuration"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{BCE1742D-65AC-4C13-9171-43FCF30BB89F}"
+                                    },
+                                    "VariableName": "RotationDuration",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 4.0,
+                                        "label": "MovingSpeed"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{484DED15-CCFD-4803-9DBD-21B025886B44}"
+                                    },
+                                    "VariableName": "MovingSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.2,
+                                        "label": "RotationDuration"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{BCE1742D-65AC-4C13-9171-43FCF30BB89F}"
+                                    },
+                                    "VariableName": "RotationDuration",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "InputConfigurationComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 16370230395885823997,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{EFE8D09D-B598-541C-A706-7D4E120CB766}"
+                            },
+                            "assetHint": "assets/maininput.inputbindings"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

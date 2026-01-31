@@ -1,0 +1,419 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "SlopeBaseStatic",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17221895507219265367
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8548701196984478202
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4490636733100776535,
+                "Child Entity Order": [
+                    "Entity_[1251623688242357]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13016268781062284498
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 11036963171808260755
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12666336431911062001,
+                "IsEditorOnly": true
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10690363722818266452
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11656416509765415166
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14802098599792888104
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1287362195528182531,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1251623688242357]": {
+            "Id": "Entity_[1251623688242357]",
+            "Name": "SlopeBaseStatic",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15294676241060428198
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15218391382181521476
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7711179715572380954,
+                    "Child Entity Order": [
+                        "Instance_[1252169149088949]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11624173809113846629
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15635977535385516969
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6987632964236317630,
+                    "IsEditorOnly": true
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1297042828828651268
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7247726033317054147
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7455967108391742989,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[1252169149088949]": {
+            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1251623688242357]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxColliderComponent/MeshData/CookedData",
+                    "value": "TlhTAU1FU0gPAAAAAAAAAAYAAAAGAAAACAAAAAAAAL8AAAC/AAAAPwAAAD8AAAC/AAAAPwAAAL8AAAA/AAAAAAAAAD8AAAA/AAAAAAAAAD8AAAC/AAAAAAAAAL8AAAC/AAAAAAIFAAMCAAMAAQUBAAUEAQQDAQIDBAIEBQoAAAAKCAkFBAYCA1JUUkUCAAAAxSAAv8UgAL9vEgO6AAAAAMUgAD/FIAA/xSAAPwAAAAAAAIA/AACAPwAAgD8AAIA/RSGAN0UhgDcKQgA3AAAAAAQAAAABAAAAAQAAAAQAAAABAAAAAAAAAMUgAL/FIAC/xSAAv8UgAL/FIAC/xSAAv8UgAL/FIAC/bxIDum8SA7pvEgO6bxIDusUgAD/FIAA/xSAAP8UgAD/FIAA/xSAAP8UgAD/FIAA/xSAAP8UgAD/FIAA/bxIDOgMAAABDAAAAgwAAAMMAAAAAAAA0AAAAvwAAAL8AAAAAAAAAPwAAAD8AAAA/CAAAADgYMDAYOBgw"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/WhiteBoxData",
+                    "value": "T01UQggAAAAMAAAAEgAAAAAWAAAAvwAAAL8AAAA/AAAAPwAAAL8AAAA/AAAAPwAAAL8AAAA/AAAAvwAAAL8AAAA/AAAAvwAAAL8AAAAAAAAAPwAAAL8AAAAAAAAAPwAAAD8AAAAAAAAAvwAAAD8AAAAA+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDgAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAgD8AAAAAAAAAPwAAgD8AAAAAAAAAPwAAgD8AAAAAAAAAAAAAAD8AAIA/AACAPwAAAD8AAAAAAAAAAAAAgD8AAAA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAPwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAPwAAAAAAAAAAAAAAAAAAgD8AAIA/AAAAPwAAAAAAAAAAAACAP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAAAAgAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgC755D4u+WQ/AAAAgC755D4u+WQ/AACAvwAAAAAAAAAAAAAAAAAAAAAAAAAAwsATdmVydGV4LWhpZGRlbi1wcm9wcwRib29sAQAAAADGwA1wb2x5Z29uLXByb3BzIldoaXRlQm94OjpGYWNlSGFuZGxlUG9seWdvbk1hcHBpbmfEAAAADAAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAAQAAAAIAAAAAAAAAAQAAAAgAAAACAAAACAAAAAkAAAACAAAAAgAAAAIAAAADAAAACQAAAAIAAAAIAAAACQAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAABAAAAAIAAAAEAAAABQAAAAsAAAACAAAACgAAAAsAAAAFAAAAAgAAAAQAAAAFAAAABgAAAAIAAAAGAAAABwAAABwA"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex1/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex1/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex3/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Vertex3/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/0/Normal/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex1/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex1/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex2/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Vertex3/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/1/Normal/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/4/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/4/Vertex3/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex2/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/5/Vertex3/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/6/Vertex3/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/6/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/6/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/6/Vertex3/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex2/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex2/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex2/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/7/Normal/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Vertex1/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Vertex2/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Vertex3/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Vertex3/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Normal/1",
+                    "value": 0.4472135901451111
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/8/Normal/2",
+                    "value": 0.8944271802902222
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex1/UV/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex2/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex2/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex3/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Vertex3/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Normal/1",
+                    "value": 0.4472135901451111
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/9/Normal/2",
+                    "value": 0.8944271802902222
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/10/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex2/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex2/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex3/Position/1",
+                    "value": -0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex3/Position/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex3/UV/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Vertex3/UV/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Faces/11/Normal/0",
+                    "value": 0.0
+                }
+            ]
+        }
+    }
+}

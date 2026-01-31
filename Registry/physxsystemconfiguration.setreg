@@ -7,8 +7,8 @@
                         "Layers": {
                             "LayerNames": [
                                 "Default",
-                                {},
-                                {},
+                                "Block",
+                                "Protagonist",
                                 {},
                                 {},
                                 {},
@@ -87,6 +87,24 @@
                                         "Mask": 0
                                     },
                                     "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{B4822E84-21F2-41D5-A8F4-60F21422D157}"
+                                    },
+                                    "Name": "Blocks",
+                                    "Group": {
+                                        "Mask": 18446744073709551610
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{045D8D37-58F1-44BC-84D8-5D2EF750C186}"
+                                    },
+                                    "Name": "Protagonists",
+                                    "Group": {
+                                        "Mask": 18446744073709551612
+                                    }
                                 }
                             ]
                         }
