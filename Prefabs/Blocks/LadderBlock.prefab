@@ -1,151 +1,121 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "Destructable_Block",
+        "Name": "LadderBlock",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 4150442967602440635
+                "Id": 9350632002564430986
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 9792504195845511428
+                "Id": 8835933783592769534
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 14390981989648376738,
+                "Id": 17478043076690869926,
                 "Child Entity Order": [
-                    "Entity_[1532908800135192]"
+                    "Entity_[337145628423265]"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 542538684245824261
+                "Id": 3437797474211723388
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 9170180742207067501
+                "Id": 1645155690114817637
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 7556565100871905374,
+                "Id": 9343664510729870707,
                 "IsEditorOnly": true
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 13346936704192829177
+                "Id": 8488328720066514774
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 2370424790836269417
+                "Id": 15788349321697396157
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 6407750754876493366
+                "Id": 1730413902203909991
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 17432269080197624696,
+                "Id": 5942023030882759738,
                 "Parent Entity": ""
             }
         }
     },
     "Entities": {
-        "Entity_[1532908800135192]": {
-            "Id": "Entity_[1532908800135192]",
-            "Name": "Destructable Block",
+        "Entity_[337145628423265]": {
+            "Id": "Entity_[337145628423265]",
+            "Name": "LadderBlock",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15015205520236660533
+                    "Id": 4517421273888535105
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 3893652341588007103
+                    "Id": 823394917262343113
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 17261337098844891637,
+                    "Id": 3833040032649887010,
                     "Child Entity Order": [
-                        "Instance_[1532883030331416]/ContainerEntity"
+                        "Instance_[298001296487521]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 11031894581534431415
+                    "Id": 1575149918628917371
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 4886829065552651981
+                    "Id": 982809612030897275
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 9086448344823153978,
+                    "Id": 6546179266932475544,
                     "IsEditorOnly": true
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 9147457422183592560
+                    "Id": 5469990352317331627
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 14344272525556896433
+                    "Id": 14638351680924559178
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12237541821982124965,
+                    "Id": 5756213518400531064,
                     "Parent Entity": "ContainerEntity"
                 }
             }
         }
     },
     "Instances": {
-        "Instance_[1532883030331416]": {
+        "Instance_[298001296487521]": {
             "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
             "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1532908800135192]"
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorDebugDrawTextComponent",
-                    "value": {
-                        "$type": "EditorDebugDrawTextComponent",
-                        "Id": 11805771045345424736,
-                        "Element": {
-                            "Text": "DESTRUCT",
-                            "Color": [
-                                0.8367284536361694,
-                                0.26404210925102234,
-                                0.26404210925102234,
-                                1.0
-                            ],
-                            "DrawMode": 1,
-                            "WorldLocation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "TargetEntity": "",
-                            "Centered": false,
-                            "Size": 1.0
-                        },
-                        "Settings": {
-                            "VisibleInGame": true,
-                            "VisibleInEditor": true
-                        }
-                    }
+                    "value": "../Entity_[337145628423265]"
                 },
                 {
                     "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
                     "value": {
                         "$type": "EditorTagComponent",
-                        "Id": 9541421553929559850,
+                        "Id": 779080332189258356,
                         "Tags": [
-                            "Destruct"
+                            "Ladder"
                         ]
                     }
                 }
