@@ -1,0 +1,47 @@
+{
+    "project_name": "GGJ",
+    "version": "1.0.0",
+    "project_id": "{FA52BD18-D534-4276-9D76-4FDEB56FC086}",
+    "origin": "The primary repo for GGJ goes here: i.e. http://www.mydomain.com",
+    "license": "What license GGJ uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "GGJ",
+    "summary": "A short description of GGJ.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "GGJ"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-sdk",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "GGJ",
+    "gem_names": [
+        "GGJ",
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "MiniAudio",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "RemoteTools"
+    ],
+    "engine_version": "2.5.2"
+}
