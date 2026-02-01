@@ -644,7 +644,7 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 5.0,
+                                        "value": 8.0,
                                         "label": "Rotating Speed"
                                     },
                                     "InputControlVisibility": {
@@ -664,7 +664,7 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 5.0,
+                                        "value": 5.5,
                                         "label": "Zoom Speed"
                                     },
                                     "InputControlVisibility": {

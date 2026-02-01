@@ -571,6 +571,11 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[39069619548572]/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[36433348076759]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
                     "value": "materials/presets/macbeth/14_green.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[2952415639467105]/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 0.0
                 }
             ]
         }
