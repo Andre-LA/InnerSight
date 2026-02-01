@@ -1,0 +1,334 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Water",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1852066270516513154
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16601140220860384574
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16765146781231912482,
+                "Child Entity Order": [
+                    "Entity_[67793605416745]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2565462106005402162
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 13759665416481142032
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10605559066871122841
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10051630797211067965
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5800288375247179441
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15098052585088175278
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11178040788859578519,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[67793605416745]": {
+            "Id": "Entity_[67793605416745]",
+            "Name": "Water",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 911304686859172288
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5723976940763439744
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17641852175089230631,
+                    "Child Entity Order": [
+                        "Entity_[67797900384041]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11725416517979678091
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2723201736486538145
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3385137478190798262
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4843360135475011468
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1352135134032835664
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12718694990806116585,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[67797900384041]": {
+            "Id": "Entity_[67797900384041]",
+            "Name": "Entity18",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5186621045300951895,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D327FB42-0319-50A5-96EA-5518AD930DB0}",
+                                    "subId": 270893523
+                                },
+                                "assetHint": "assets/models/blocks/default_assetspackinersight_1b96beb0_ed18_5c09_a61c_fde9d2415608_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12441130960647525545
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13647697118124845696
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7910856595214186756
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17358134803149900432
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13026452005284612
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16490248828419965955,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{3AFC3614-3461-5633-99CE-B550B226CB4E}"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10780959549914210266
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1467924552272864783
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 12409752506664453823,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{6F76AD4C-1CE3-5A60-AF94-C55590FF5E77}",
+                            "path": "Assets/ScriptCanvas/TestePorFavor.scriptcanvas"
+                        },
+                        "sourceName": "TestePorFavor.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{6F76AD4C-1CE3-5A60-AF94-C55590FF5E77}",
+                                "path": "Assets/ScriptCanvas/TestePorFavor.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "label": "BlueM"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{0AF52225-69DC-467B-9EB3-25F485833B53}"
+                                    },
+                                    "VariableName": "BlueM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "label": "NoneM"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{2EF0E4B9-C01E-4646-847E-1FC05EDE8930}"
+                                    },
+                                    "VariableName": "NoneM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "label": "RedM"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{55F7F14E-675E-4849-9A9E-F5659A167C9F}"
+                                    },
+                                    "VariableName": "RedM",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{3AFC3614-3461-5633-99CE-B550B226CB4E}"
+                                                },
+                                                "assetHint": "assets/models/materials/riverwater.azmaterial"
+                                            }
+                                        },
+                                        "label": "BlueM"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{0AF52225-69DC-467B-9EB3-25F485833B53}"
+                                    },
+                                    "VariableName": "BlueM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{F9960728-D2C1-513D-B790-69A75EB2D5A9}"
+                                                },
+                                                "assetHint": "assets/models/materials/marble.azmaterial"
+                                            }
+                                        },
+                                        "label": "NoneM"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{2EF0E4B9-C01E-4646-847E-1FC05EDE8930}"
+                                    },
+                                    "VariableName": "NoneM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{237DFAA3-9530-5B57-A353-53D44CFC156B}"
+                                                },
+                                                "assetHint": "assets/models/materials/lava.azmaterial"
+                                            }
+                                        },
+                                        "label": "RedM"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{55F7F14E-675E-4849-9A9E-F5659A167C9F}"
+                                    },
+                                    "VariableName": "RedM",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7009388291017676943
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10938877756776243563,
+                    "Parent Entity": "Entity_[67793605416745]",
+                    "Transform Data": {
+                        "UniformScale": 100.0
+                    }
+                }
+            }
+        }
+    }
+}

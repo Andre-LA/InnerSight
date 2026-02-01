@@ -21,6 +21,8 @@
         "normal.textureMap": "Textures/pine_bark_nor_gl_4k.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.20000000298023224,
-        "roughness.textureMap": "Textures/pine_bark_rough_4k.png"
+        "roughness.textureMap": "Textures/pine_bark_rough_4k.png",
+        "uv.tileU": 2.0,
+        "uv.tileV": 2.0
     }
 }

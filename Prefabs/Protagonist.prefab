@@ -592,11 +592,11 @@
                         "Value": {
                             "MaterialAsset": {
                                 "assetId": {
-                                    "guid": "{9C47066E-BD8F-5C1B-B935-933296BBE312}",
+                                    "guid": "{3392BCDF-ED8B-56E5-AC67-AD9D8AF75F20}",
                                     "subId": 0
                                 },
                                 "loadBehavior": "QueueLoad",
-                                "assetHint": "materials/presets/macbeth/15_red.azmaterial"
+                                "assetHint": ""
                             },
                             "PropertyOverrides": [],
                             "ModelUvOverrides": []
@@ -634,11 +634,11 @@
                         "Value": {
                             "MaterialAsset": {
                                 "assetId": {
-                                    "guid": "{B8972ADB-DBA9-5807-9742-2B14453FDD96}",
+                                    "guid": "{7AF4871C-0C36-530D-A0E7-7D3B0AC26281}",
                                     "subId": 0
                                 },
                                 "loadBehavior": "QueueLoad",
-                                "assetHint": "materials/presets/macbeth/13_blue.azmaterial"
+                                "assetHint": ""
                             },
                             "PropertyOverrides": [],
                             "ModelUvOverrides": []
