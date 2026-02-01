@@ -19,8 +19,7 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
-                    "Instance_[981533985651718]/ContainerEntity",
-                    "Instance_[1751056514514394]/ContainerEntity"
+                    "Entity_[3013320502708128]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -55,6 +54,55 @@
             }
         }
     },
+    "Entities": {
+        "Entity_[3013320502708128]": {
+            "Id": "Entity_[3013320502708128]",
+            "Name": "Root",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4584529702645158620
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2246501761314507421
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16546170886120773929,
+                    "Child Entity Order": [
+                        "Instance_[981533985651718]/ContainerEntity",
+                        "Instance_[1751056514514394]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8088064167701755336
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 695970658724008990
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18306060039887817547
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17503026679426178991
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3241493257254573248
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8446929988347345293,
+                    "Parent Entity": "Entity_[1146574390643]"
+                }
+            }
+        }
+    },
     "Instances": {
         "Instance_[1751056514514394]": {
             "Source": "Prefabs/Blocks/Atom_Default_Environment.prefab",
@@ -62,7 +110,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
+                    "value": "../Entity_[3013320502708128]"
                 }
             ]
         },
@@ -72,7 +120,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
+                    "value": "../Entity_[3013320502708128]"
                 }
             ]
         }

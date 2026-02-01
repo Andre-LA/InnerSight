@@ -19,8 +19,7 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
-                    "Instance_[52172512239724]/ContainerEntity",
-                    "Instance_[2381492158760864]/ContainerEntity"
+                    "Instance_[3015777224001440]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -50,44 +49,19 @@
             },
             "LocalViewBookmarkComponent": {
                 "$type": "LocalViewBookmarkComponent",
-                "Id": 7797501537391058174,
-                "LocalBookmarkFileName": "Level01_17698818121036148.setreg"
+                "Id": 1133972418288482262,
+                "LocalBookmarkFileName": "FinalLevelTest_17699718076045398.setreg"
             }
         }
     },
     "Instances": {
-        "Instance_[2381492158760864]": {
-            "Source": "Prefabs/Puzzles/PuzzleFinal.prefab",
+        "Instance_[3015777224001440]": {
+            "Source": "Prefabs/Puzzles/FinalScreenTest.prefab",
             "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[1146574390643]"
-                }
-            ]
-        },
-        "Instance_[52172512239724]": {
-            "Source": "Prefabs/Blocks/Atom_Default_Environment.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1751077989350874]/Components/Component_[14936200426671614999]/Controller/Configuration/exposure",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1751077989350874]/Components/Component_[14936200426671614999]/exposure",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1751069399416282]/Components/Component_[7378860763541895402]/Controller/Configuration/AngularDiameter",
-                    "value": 0.5
                 }
             ]
         }
