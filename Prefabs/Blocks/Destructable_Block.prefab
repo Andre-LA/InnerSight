@@ -121,6 +121,16 @@
                 },
                 {
                     "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
+                    "value": 276175173
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/models/blocks/default_standardblock_9daea50e_c56d_57c9_ae06_66f5b87e11df_.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Id",
                     "value": 10065678666427995576
                 },
@@ -133,6 +143,11 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetHint",
                     "value": "assets/models/materials/marble.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 100.0
                 }
             ]
         }

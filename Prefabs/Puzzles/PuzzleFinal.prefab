@@ -168,11 +168,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 18370689247179106250,
-                    "Child Entity Order": [
-                        "Instance_[139080896302833]/ContainerEntity",
-                        "Instance_[139085191270129]/ContainerEntity"
-                    ]
+                    "Id": 18370689247179106250
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -1527,166 +1523,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
                     "value": 10.0
-                }
-            ]
-        },
-        "Instance_[139080896302833]": {
-            "Source": "Prefabs/Blocks/Passable_Block.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/stonewall.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[59903750493993]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Entities/Entity_[218108527936693]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Name",
-                    "value": "s"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[2381509338630048]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -17.029747009277344
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": -1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": -1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[3092337084036193]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                }
-            ]
-        },
-        "Instance_[139085191270129]": {
-            "Source": "Prefabs/Blocks/Passable_Block.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/stonewall.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[59903750493993]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[3092337084036193]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Entities/Entity_[218108527936693]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Name",
-                    "value": "s"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[2381509338630048]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -17.029747009277344
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": -1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": -2.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
                 }
             ]
         },
@@ -9653,22 +9489,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -4.0
+                    "value": -5.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 9.0
+                    "value": 8.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
                     "value": 10.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": 90.00000762939453
                 }
             ]
         },
@@ -9693,22 +9524,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -4.0
+                    "value": -5.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 9.0
+                    "value": 8.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
                     "value": 9.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": 90.00000762939453
                 }
             ]
         },
@@ -12428,17 +12254,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -5.0
+                    "value": -4.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
+                    "value": 9.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 8.0
+                    "value": 9.0
                 }
             ]
         },
@@ -12818,17 +12644,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -5.0
+                    "value": -4.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
+                    "value": 9.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 9.0
+                    "value": 8.0
                 }
             ]
         },
@@ -12883,22 +12709,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -4.0
+                    "value": -5.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 9.0
+                    "value": 8.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
                     "value": 8.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": 90.00000762939453
                 }
             ]
         },
@@ -24250,12 +24071,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -5.0
+                    "value": -4.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 8.0
+                    "value": 9.0
                 },
                 {
                     "op": "replace",

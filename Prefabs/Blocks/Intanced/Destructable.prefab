@@ -121,7 +121,7 @@
                                     "subId": 0
                                 },
                                 "loadBehavior": "QueueLoad",
-                                "assetHint": ""
+                                "assetHint": "assets/models/materials/destructblewall.azmaterial"
                             },
                             "PropertyOverrides": [],
                             "ModelUvOverrides": []

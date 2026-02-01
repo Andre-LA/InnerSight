@@ -63,6 +63,94 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Entities/Entity_[3092337084036193]/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Entities/Entity_[218108527936693]/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/ContainerEntity/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/0"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 1,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "EntityId",
+                            "value": "",
+                            "label": "DetectPlayer"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 850104567
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{50C878FA-9D4C-44D8-B590-0FFA866278DB}"
+                        },
+                        "VariableName": "DetectPlayer",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[59903750493993]/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[139085191270129]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/EditorVisibilityComponent/VisibilityFlag",
+                    "value": true
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[139080896302833]"
                 }
             ]
         },
