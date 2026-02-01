@@ -62,6 +62,10 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[2106902046515308]/Components/InputConfigurationComponent"
                 }
             ]
         }
