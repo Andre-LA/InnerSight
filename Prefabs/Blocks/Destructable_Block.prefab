@@ -110,39 +110,6 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent",
-                    "value": {
-                        "$type": "EditorMaterialComponent",
-                        "Id": 10065678666427995576,
-                        "Controller": {
-                            "Configuration": {
-                                "materials": [
-                                    {
-                                        "Key": {
-                                            "lodIndex": 18446744073709551615,
-                                            "materialSlotStableId": 4294967295
-                                        },
-                                        "Value": {
-                                            "MaterialAsset": {
-                                                "assetId": {
-                                                    "guid": "{FD3D09E1-9B20-5761-87A2-388ADD3C966A}",
-                                                    "subId": 0
-                                                },
-                                                "loadBehavior": "QueueLoad",
-                                                "assetHint": ""
-                                            },
-                                            "PropertyOverrides": [],
-                                            "ModelUvOverrides": []
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        "materialSlotsByLodEnabled": false
-                    }
-                },
-                {
-                    "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
                     "value": {
                         "$type": "EditorTagComponent",
@@ -151,6 +118,21 @@
                             "Destructable"
                         ]
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Id",
+                    "value": 10065678666427995576
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{F9960728-D2C1-513D-B790-69A75EB2D5A9}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/marble.azmaterial"
                 }
             ]
         }

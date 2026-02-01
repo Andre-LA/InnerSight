@@ -1,0 +1,25 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Textures/broken_brick_wall_diff_4k.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.factor": 1.5,
+        "normal.textureMap": "Textures/broken_brick_wall_nor_gl_4k.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.4000000059604645,
+        "roughness.textureMap": "Textures/broken_brick_wall_rough_4k.png",
+        "roughness.upperBound": 0.7200000286102295
+    }
+}
