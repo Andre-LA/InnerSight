@@ -1,0 +1,17 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.factor": 0.0,
+        "emissive.enable": true,
+        "emissive.intensity": 10.0,
+        "general.applySpecularAA": false,
+        "general.castShadows": false,
+        "general.doubleSided": true,
+        "general.enableAreaLights": false,
+        "general.enableDirectionalLights": false,
+        "general.enablePunctualLights": false,
+        "general.enableShadows": false,
+        "specularF0.factor": 0.0
+    }
+}

@@ -370,6 +370,23 @@
                                         "isNullPointer": false,
                                         "$type": "EntityId",
                                         "value": "",
+                                        "label": "ZoomAnchor"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{25770FD0-252A-43D4-86A4-6C5284CDA494}"
+                                    },
+                                    "VariableName": "ZoomAnchor",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "",
                                         "label": "RotationAnchorX"
                                     },
                                     "VariableId": {
@@ -387,12 +404,97 @@
                                         "isNullPointer": false,
                                         "$type": "double",
                                         "value": 0.0,
+                                        "label": "Max Distance"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{5DB7220A-93CB-4E4A-AC7C-8989100C6E3B}"
+                                    },
+                                    "VariableName": "Max Distance",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
+                                        "label": "Max Pitch"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{669B5673-1272-4013-A069-8A54CF557482}"
+                                    },
+                                    "VariableName": "Max Pitch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0,
+                                        "label": "Min Distance"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{6C6719A1-BCDC-42F2-9955-467414AF67C7}"
+                                    },
+                                    "VariableName": "Min Distance",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
+                                        "label": "Min Pitch"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{849AE9A4-DE44-4674-9BFD-5211822F7647}"
+                                    },
+                                    "VariableName": "Min Pitch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
                                         "label": "Rotating Speed"
                                     },
                                     "VariableId": {
                                         "m_id": "{9672F886-0035-4069-A9AA-824028341FC6}"
                                     },
                                     "VariableName": "Rotating Speed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
+                                        "label": "Zoom Speed"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{9B91B52F-076F-4CC3-B403-434F37FC1A74}"
+                                    },
+                                    "VariableName": "Zoom Speed",
                                     "InitialValueSource": 1
                                 },
                                 {
@@ -422,6 +524,26 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "EntityId",
+                                        "value": "Entity_[108135206140934]",
+                                        "label": "ZoomAnchor"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{25770FD0-252A-43D4-86A4-6C5284CDA494}"
+                                    },
+                                    "VariableName": "ZoomAnchor",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
                                         "value": "Entity_[193991602387974]",
                                         "label": "RotationAnchorX"
                                     },
@@ -442,7 +564,87 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 5.0,
+                                        "value": 30.0,
+                                        "label": "Max Distance"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{5DB7220A-93CB-4E4A-AC7C-8989100C6E3B}"
+                                    },
+                                    "VariableName": "Max Distance",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 6.0,
+                                        "label": "Max Pitch"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{669B5673-1272-4013-A069-8A54CF557482}"
+                                    },
+                                    "VariableName": "Max Pitch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 10.0,
+                                        "label": "Min Distance"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{6C6719A1-BCDC-42F2-9955-467414AF67C7}"
+                                    },
+                                    "VariableName": "Min Distance",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": -60.0,
+                                        "label": "Min Pitch"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{849AE9A4-DE44-4674-9BFD-5211822F7647}"
+                                    },
+                                    "VariableName": "Min Pitch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 10.0,
                                         "label": "Rotating Speed"
                                     },
                                     "InputControlVisibility": {
@@ -452,6 +654,26 @@
                                         "m_id": "{9672F886-0035-4069-A9AA-824028341FC6}"
                                     },
                                     "VariableName": "Rotating Speed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 5.5,
+                                        "label": "Zoom Speed"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{9B91B52F-076F-4CC3-B403-434F37FC1A74}"
+                                    },
+                                    "VariableName": "Zoom Speed",
                                     "InitialValueSource": 1
                                 },
                                 {
@@ -472,108 +694,6 @@
                                         "m_id": "{AD7F86FA-E14E-4FCA-9880-059500B37FC1}"
                                     },
                                     "VariableName": "RotationAnchorZ",
-                                    "InitialValueSource": 1
-                                }
-                            ],
-                            "overridesUnused": [
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 3
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "double",
-                                        "value": 0.0,
-                                        "label": "Max Distance"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{5DB7220A-93CB-4E4A-AC7C-8989100C6E3B}"
-                                    },
-                                    "VariableName": "Max Distance",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 3
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "double",
-                                        "value": 0.0,
-                                        "label": "Max Pitch"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{669B5673-1272-4013-A069-8A54CF557482}"
-                                    },
-                                    "VariableName": "Max Pitch",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 3
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "double",
-                                        "value": 1.0,
-                                        "label": "Min Distance"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{6C6719A1-BCDC-42F2-9955-467414AF67C7}"
-                                    },
-                                    "VariableName": "Min Distance",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 3
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "double",
-                                        "value": 0.0,
-                                        "label": "Min Pitch"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{849AE9A4-DE44-4674-9BFD-5211822F7647}"
-                                    },
-                                    "VariableName": "Min Pitch",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 1
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "EntityId",
-                                        "value": "Entity_[108135206140934]",
-                                        "label": "ZoomAnchor"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{25770FD0-252A-43D4-86A4-6C5284CDA494}"
-                                    },
-                                    "VariableName": "ZoomAnchor",
                                     "InitialValueSource": 1
                                 }
                             ]

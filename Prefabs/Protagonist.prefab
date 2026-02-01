@@ -97,7 +97,7 @@
                     "Transform Data": {
                         "Translate": [
                             -1.1920928955078125e-7,
-                            0.49066293239593506,
+                            0.4080280661582947,
                             0.9550328850746155
                         ],
                         "UniformScale": 0.4000000059604645
@@ -326,6 +326,23 @@
                                         "isNullPointer": false,
                                         "$type": "EntityId",
                                         "value": "",
+                                        "label": "ActorGraph"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{ED6998DC-D358-404F-8E40-A942A87C509F}"
+                                    },
+                                    "VariableName": "ActorGraph",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "",
                                         "label": "Red Mask"
                                     },
                                     "VariableId": {
@@ -401,6 +418,26 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "EntityId",
+                                        "value": "Entity_[5104574340658]",
+                                        "label": "ActorGraph"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{ED6998DC-D358-404F-8E40-A942A87C509F}"
+                                    },
+                                    "VariableName": "ActorGraph",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
                                         "value": "Instance_[1589750353944]/Entity_[1598340288536]",
                                         "label": "Red Mask"
                                     },
@@ -461,23 +498,8 @@
         },
         "Entity_[27530025989217]": {
             "Id": "Entity_[27530025989217]",
-            "Name": "Entity3",
+            "Name": "Actor",
             "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 9266809497693448876,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
-                                    "subId": 281415304
-                                },
-                                "assetHint": "objects/shaderball/shaderball_default_1m.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 2007914605799393094
@@ -488,7 +510,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16476988427456430431
+                    "Id": 16476988427456430431,
+                    "Child Entity Order": [
+                        "Entity_[5104574340658]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -554,9 +579,105 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 414569336885085196,
-                    "Parent Entity": "Entity_[215664691545269]",
+                    "Parent Entity": "Entity_[215664691545269]"
+                }
+            }
+        },
+        "Entity_[5104574340658]": {
+            "Id": "Entity_[5104574340658]",
+            "Name": "character-female-b",
+            "Components": {
+                "EditorActorComponent": {
+                    "$type": "EditorActorComponent",
+                    "Id": 2264370937865727585,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{2834695C-A676-5351-8ADF-74C9CFE55C7D}",
+                            "subId": 2648801041
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/characters/character-female-b.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "EditorAnimGraphComponent": {
+                    "$type": "EditorAnimGraphComponent",
+                    "Id": 5935050390884096130,
+                    "AnimGraphAsset": {
+                        "assetId": {
+                            "guid": "{19647E38-55DD-5ADB-AF5A-40E623A0301E}"
+                        },
+                        "assetHint": "assets/models/characters/protagonistanimgraph.animgraph"
+                    },
+                    "MotionSetAsset": {
+                        "assetId": {
+                            "guid": "{E75CD6AE-1F86-5AA0-B2B9-E88E0FC400DE}"
+                        },
+                        "assetHint": "assets/models/characters/walk_motion.motionset"
+                    },
+                    "ActiveMotionSetName": "Default",
+                    "ParameterDefaults": {
+                        "Parameters": [
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 20590411,
+                                "name": "IsWalking"
+                            }
+                        ]
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2871854584697602823
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14820258026358155900
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10018743039294636314
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11460945032065440973
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15464337435166526472
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 854391210914128317
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18219136324189445341
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2896004321345160486
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8999458675190852024
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 325124481579590696,
+                    "Parent Entity": "Entity_[27530025989217]",
                     "Transform Data": {
-                        "UniformScale": 0.699999988079071
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.30000001192092896
+                        ],
+                        "Rotate": [
+                            90.0,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 1.350000023841858
                     }
                 }
             }
@@ -596,7 +717,7 @@
                                     "subId": 0
                                 },
                                 "loadBehavior": "QueueLoad",
-                                "assetHint": ""
+                                "assetHint": "assets/models/materials/maskred.azmaterial"
                             },
                             "PropertyOverrides": [],
                             "ModelUvOverrides": []
@@ -638,7 +759,7 @@
                                     "subId": 0
                                 },
                                 "loadBehavior": "QueueLoad",
-                                "assetHint": ""
+                                "assetHint": "assets/models/materials/maskblue.azmaterial"
                             },
                             "PropertyOverrides": [],
                             "ModelUvOverrides": []

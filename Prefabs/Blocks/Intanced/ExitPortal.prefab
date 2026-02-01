@@ -158,6 +158,35 @@
                         }
                     }
                 },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13414359177113067888,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                1.7000000476837158,
+                                1.7000000476837158,
+                                1.7000000476837158
+                            ],
+                            "Configuration": [
+                                0.75,
+                                1.0,
+                                0.10000000149011612
+                            ]
+                        }
+                    }
+                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 7824750439391372070
@@ -203,6 +232,27 @@
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14088684600136501080
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 962263976495190621,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{6351387A-AD71-5C60-958B-8EDB96DF1E88}",
+                            "path": "Assets/ScriptCanvas/ExitPortalCtrl.scriptcanvas"
+                        },
+                        "sourceName": "ExitPortalCtrl.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{6351387A-AD71-5C60-958B-8EDB96DF1E88}",
+                                "path": "Assets/ScriptCanvas/ExitPortalCtrl.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10405948619945607096
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
