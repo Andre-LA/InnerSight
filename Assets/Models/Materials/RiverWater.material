@@ -8,6 +8,8 @@
             0.32494086027145386,
             1.0
         ],
+        "baseColor.textureBlendMode": "Overlay",
+        "baseColor.textureMap": "Textures/FlatTextures/Water.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -15,9 +17,9 @@
             1.0
         ],
         "normal.factor": 1.5,
-        "opacity.factor": 1.0,
+        "opacity.factor": 0.30000001192092896,
         "opacity.mode": "TintedTransparent",
-        "roughness.factor": 0.0,
+        "roughness.factor": 0.30000001192092896,
         "roughness.upperBound": 0.550000011920929
     }
 }

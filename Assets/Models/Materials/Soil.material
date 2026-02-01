@@ -8,7 +8,7 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/FlatTextures/BrickDifuse.png",
+        "baseColor.textureMap": "Textures/FlatTextures/Soil.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -17,7 +17,6 @@
         ],
         "normal.factor": 1.5,
         "opacity.factor": 1.0,
-        "roughness.upperBound": 0.7200000286102295,
-        "uv.scale": 2.0
+        "roughness.upperBound": 0.550000011920929
     }
 }

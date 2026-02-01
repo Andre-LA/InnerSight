@@ -8,14 +8,11 @@
             0.32494086027145386,
             1.0
         ],
-        "baseColor.textureMap": "Textures/Lava004_1K-PNG_Color.png",
+        "baseColor.textureMap": "Textures/FlatTextures/Lava.png",
         "emissive.enable": true,
-        "emissive.intensity": 5.0,
-        "emissive.textureMap": "Textures/Lava004_1K-PNG_Emission.png",
+        "emissive.intensity": 4.559999942779541,
+        "emissive.textureMap": "Textures/FlatTextures/Lava.png",
         "normal.factor": 1.5,
-        "normal.textureMap": "Textures/Lava004_1K-PNG_NormalGL.png",
-        "opacity.factor": 1.0,
-        "roughness.factor": 0.0,
-        "roughness.textureMap": "Textures/Lava004_1K-PNG_Roughness.png"
+        "opacity.factor": 1.0
     }
 }

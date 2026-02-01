@@ -17,7 +17,7 @@
         ],
         "normal.factor": 1.5,
         "opacity.factor": 1.0,
-        "roughness.factor": 0.10000000149011612,
+        "roughness.factor": 0.4000000059604645,
         "roughness.upperBound": 0.550000011920929,
         "specularF0.factor": 1.0
     }
