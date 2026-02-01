@@ -394,6 +394,262 @@
                         },
                         "materialSlotsByLodEnabled": false
                     }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent",
+                    "value": {
+                        "$type": "EditorScriptCanvasComponent",
+                        "Id": 8248671721832896997,
+                        "configuration": {
+                            "sourceHandle": {
+                                "id": "{6F76AD4C-1CE3-5A60-AF94-C55590FF5E77}",
+                                "path": "Assets/ScriptCanvas/TestePorFavor.scriptcanvas"
+                            },
+                            "sourceName": "TestePorFavor.scriptcanvas",
+                            "propertyOverrides": {
+                                "source": {
+                                    "id": "{6F76AD4C-1CE3-5A60-AF94-C55590FF5E77}",
+                                    "path": "Assets/ScriptCanvas/TestePorFavor.scriptcanvas"
+                                },
+                                "variables": [
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 4,
+                                                "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "AZ::Render::MaterialAssignment",
+                                            "value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": [],
+                                                "ModelUvOverrides": []
+                                            },
+                                            "label": "BlueM"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 2755429085
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{0AF52225-69DC-467B-9EB3-25F485833B53}"
+                                        },
+                                        "VariableName": "BlueM",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    },
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 4,
+                                                "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "AZ::Render::MaterialAssignment",
+                                            "value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": [],
+                                                "ModelUvOverrides": []
+                                            },
+                                            "label": "NoneM"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 2755429085
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{2EF0E4B9-C01E-4646-847E-1FC05EDE8930}"
+                                        },
+                                        "VariableName": "NoneM",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    },
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 4,
+                                                "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "AZ::Render::MaterialAssignment",
+                                            "value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": [],
+                                                "ModelUvOverrides": []
+                                            },
+                                            "label": "RedM"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 2755429085
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{55F7F14E-675E-4849-9A9E-F5659A167C9F}"
+                                        },
+                                        "VariableName": "RedM",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    }
+                                ],
+                                "entityId": [],
+                                "overrides": [
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 4,
+                                                "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "AZ::Render::MaterialAssignment",
+                                            "value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": [],
+                                                "ModelUvOverrides": []
+                                            },
+                                            "label": "BlueM"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 850104567
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{0AF52225-69DC-467B-9EB3-25F485833B53}"
+                                        },
+                                        "VariableName": "BlueM",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    },
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 4,
+                                                "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "AZ::Render::MaterialAssignment",
+                                            "value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{BFE9F61F-4729-5F2E-A50F-5050E7A88DE7}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": "assets/models/blocks/basicblock_marble.azmaterial"
+                                                },
+                                                "PropertyOverrides": [],
+                                                "ModelUvOverrides": []
+                                            },
+                                            "label": "NoneM"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 850104567
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{2EF0E4B9-C01E-4646-847E-1FC05EDE8930}"
+                                        },
+                                        "VariableName": "NoneM",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    },
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 4,
+                                                "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "AZ::Render::MaterialAssignment",
+                                            "value": {
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                },
+                                                "PropertyOverrides": [],
+                                                "ModelUvOverrides": []
+                                            },
+                                            "label": "RedM"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 850104567
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{55F7F14E-675E-4849-9A9E-F5659A167C9F}"
+                                        },
+                                        "VariableName": "RedM",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    }
+                                ],
+                                "overridesUnused": [],
+                                "dependencies": []
+                            }
+                        }
+                    }
                 }
             ]
         }

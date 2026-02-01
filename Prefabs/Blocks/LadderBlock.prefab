@@ -111,7 +111,7 @@
                 {
                     "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/1",
-                    "value": "Entity_[36433348076759]"
+                    "value": "Entity_[55351085160233]"
                 },
                 {
                     "op": "add",
@@ -126,23 +126,23 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[36433348076759]",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[55351085160233]",
                     "value": {
-                        "Id": "Entity_[36433348076759]",
-                        "Name": "LadderDir",
+                        "Id": "Entity_[55351085160233]",
+                        "Name": "default_assetspackinersight_9114d63a_e9b2_589f_8ba0_b4c8b548e9fc_.fbx",
                         "Components": {
                             "AZ::Render::EditorMeshComponent": {
                                 "$type": "AZ::Render::EditorMeshComponent",
-                                "Id": 14187694676684974461,
+                                "Id": 8162859786721780952,
                                 "Controller": {
                                     "Configuration": {
                                         "ModelAsset": {
                                             "assetId": {
-                                                "guid": "{E588282C-7C4B-51E6-84AB-E75F9FEC2D0A}",
-                                                "subId": 269946244
+                                                "guid": "{D327FB42-0319-50A5-96EA-5518AD930DB0}",
+                                                "subId": 276937207
                                             },
                                             "loadBehavior": "QueueLoad",
-                                            "assetHint": "assets/models/blocks/standardblock.fbx.azmodel"
+                                            "assetHint": "assets/models/blocks/default_assetspackinersight_9114d63a_e9b2_589f_8ba0_b4c8b548e9fc_.fbx.azmodel"
                                         },
                                         "SortKey": 0,
                                         "ExcludeFromReflectionCubeMaps": false,
@@ -169,12 +169,12 @@
                             },
                             "EditorDisabledCompositionComponent": {
                                 "$type": "EditorDisabledCompositionComponent",
-                                "Id": 452565765531950897,
+                                "Id": 13746758540115093455,
                                 "DisabledComponents": []
                             },
                             "EditorEntityIconComponent": {
                                 "$type": "EditorEntityIconComponent",
-                                "Id": 13449872105353530297,
+                                "Id": 9457136124750483423,
                                 "EntityIconAssetId": {
                                     "guid": "{00000000-0000-0000-0000-000000000000}",
                                     "subId": 0
@@ -182,22 +182,22 @@
                             },
                             "EditorEntitySortComponent": {
                                 "$type": "EditorEntitySortComponent",
-                                "Id": 9339081853016428323,
+                                "Id": 16562412553802420804,
                                 "Child Entity Order": []
                             },
                             "EditorInspectorComponent": {
                                 "$type": "EditorInspectorComponent",
-                                "Id": 7840759636029701781,
+                                "Id": 8248307335704193575,
                                 "ComponentOrderEntryArray": []
                             },
                             "EditorLockComponent": {
                                 "$type": "EditorLockComponent",
-                                "Id": 15097620496369633817,
+                                "Id": 13616974537757425685,
                                 "Locked": false
                             },
                             "EditorMaterialComponent": {
                                 "$type": "EditorMaterialComponent",
-                                "Id": 10614575921885514931,
+                                "Id": 13112623445697141860,
                                 "Controller": {
                                     "Configuration": {
                                         "materials": [
@@ -209,7 +209,7 @@
                                                 "Value": {
                                                     "MaterialAsset": {
                                                         "assetId": {
-                                                            "guid": "{82346ED7-D369-5EF0-A7E0-70C1082EE073}",
+                                                            "guid": "{B20CFFF7-912E-5A61-B45C-F024688565FC}",
                                                             "subId": 0
                                                         },
                                                         "loadBehavior": "QueueLoad",
@@ -224,39 +224,29 @@
                                 },
                                 "materialSlotsByLodEnabled": false
                             },
-                            "EditorNonUniformScaleComponent": {
-                                "$type": "EditorNonUniformScaleComponent",
-                                "Id": 16069302386725161957,
-                                "NonUniformScale": [
-                                    0.5,
-                                    0.20000000298023224,
-                                    1.0
-                                ],
-                                "ComponentMode": {}
-                            },
                             "EditorOnlyEntityComponent": {
                                 "$type": "EditorOnlyEntityComponent",
-                                "Id": 14754436561299012698,
+                                "Id": 8519607436855390343,
                                 "IsEditorOnly": false
                             },
                             "EditorPendingCompositionComponent": {
                                 "$type": "EditorPendingCompositionComponent",
-                                "Id": 8271476051355877570,
+                                "Id": 14382282563302827002,
                                 "PendingComponents": []
                             },
                             "EditorVisibilityComponent": {
                                 "$type": "EditorVisibilityComponent",
-                                "Id": 3427235855501790002,
+                                "Id": 1763399533226466401,
                                 "VisibilityFlag": true
                             },
                             "TransformComponent": {
                                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                                "Id": 8003837460654992491,
+                                "Id": 11581135976254384521,
                                 "Parent Entity": "Entity_[217490052646069]",
                                 "Transform Data": {
                                     "Translate": [
                                         0.0,
-                                        0.4300000071525574,
+                                        0.06331729888916016,
                                         0.0
                                     ],
                                     "Rotate": [
@@ -270,7 +260,7 @@
                                         1.0
                                     ],
                                     "Locked": false,
-                                    "UniformScale": 1.0
+                                    "UniformScale": 100.0
                                 },
                                 "Parent Activation Transform Mode": 0,
                                 "IsStatic": false,

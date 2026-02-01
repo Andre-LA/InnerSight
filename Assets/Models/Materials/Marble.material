@@ -1,0 +1,24 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Textures/pngtree-white-marble-texture-background-natural-stone-pattern-luxury-interior-design-elegant-image_16961853.jpg",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.factor": 1.5,
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.10000000149011612,
+        "roughness.upperBound": 0.550000011920929,
+        "specularF0.factor": 1.0
+    }
+}

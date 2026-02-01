@@ -1,0 +1,25 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "emissive.affectedByAlpha": 0.8999999761581421,
+        "emissive.color": [
+            0.0027924010064452887,
+            0.47861447930336,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 6.0,
+        "general.castShadows": false,
+        "general.enableAreaLights": false,
+        "general.enableDirectionalLights": false,
+        "general.enablePunctualLights": false,
+        "general.enableShadows": false,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "normal.factor": 1.5,
+        "opacity.factor": 1.0,
+        "opacity.mode": "TintedTransparent",
+        "roughness.upperBound": 0.550000011920929
+    }
+}

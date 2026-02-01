@@ -1,138 +1,130 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "Destructable_Block",
+        "Name": "DoorFrameBotton",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 4150442967602440635
+                "Id": 17742946397626279864
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 9792504195845511428
+                "Id": 7211049891007297692
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 14390981989648376738,
+                "Id": 3522851526484907345,
                 "Child Entity Order": [
-                    "Entity_[1532908800135192]"
+                    "Entity_[62296047277865]"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 542538684245824261
+                "Id": 1099761061123371940
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 9170180742207067501
+                "Id": 5144119062003541822
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 7556565100871905374,
-                "IsEditorOnly": true
+                "Id": 7852391434208282722
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 13346936704192829177
+                "Id": 10184042328635099925
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 2370424790836269417
+                "Id": 17950576418084603163
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 6407750754876493366
+                "Id": 5960018710190534904
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 17432269080197624696,
+                "Id": 11624843658859443729,
                 "Parent Entity": ""
             }
         }
     },
     "Entities": {
-        "Entity_[1532908800135192]": {
-            "Id": "Entity_[1532908800135192]",
-            "Name": "Destructable Block",
+        "Entity_[62296047277865]": {
+            "Id": "Entity_[62296047277865]",
+            "Name": "DoorFrameBotton",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15015205520236660533
+                    "Id": 9267859562676682630
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 3893652341588007103
+                    "Id": 18216434441379790920
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 17261337098844891637,
+                    "Id": 15374907364585432458,
                     "Child Entity Order": [
-                        "Instance_[1532883030331416]/ContainerEntity"
+                        "Instance_[58838598604585]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 11031894581534431415
+                    "Id": 7279909706504884204
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 4886829065552651981
+                    "Id": 5356702124034495733
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 9086448344823153978,
-                    "IsEditorOnly": true
+                    "Id": 705744611673646603
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 9147457422183592560
+                    "Id": 17887515060555457328
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 14344272525556896433
+                    "Id": 804805499057982909
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12237541821982124965,
+                    "Id": 6833867870675702279,
                     "Parent Entity": "ContainerEntity"
                 }
             }
         }
     },
     "Instances": {
-        "Instance_[1532883030331416]": {
-            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
+        "Instance_[58838598604585]": {
+            "Source": "Prefabs/Blocks/Passable_Block.prefab",
             "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1532908800135192]"
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
-                    "value": {
-                        "$type": "EditorTagComponent",
-                        "Id": 9541421553929559850,
-                        "Tags": [
-                            "Destructable"
-                        ]
-                    }
+                    "value": "../Entity_[62296047277865]"
                 },
                 {
                     "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Id",
-                    "value": 10065678666427995576
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{29E84DAC-B6F8-5E01-8032-3BBE79AF5C92}"
                 },
                 {
                     "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetId/guid",
-                    "value": "{F9960728-D2C1-513D-B790-69A75EB2D5A9}"
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/stonewall.azmaterial"
                 },
                 {
                     "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/marble.azmaterial"
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{D63BEB3D-92B5-5F52-8AA2-A6D2696004C3}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/stonewalldark.azmaterial"
                 }
             ]
         }

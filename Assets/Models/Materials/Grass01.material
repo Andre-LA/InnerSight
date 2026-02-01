@@ -1,0 +1,25 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Textures/leafy_grass_diff_1k.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.factor": 1.2000000476837158,
+        "normal.textureMap": "Textures/leafy_grass_nor_gl_1k.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.30000001192092896,
+        "roughness.textureMap": "Textures/leafy_grass_rough_1k.png",
+        "roughness.upperBound": 0.5199999809265137
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Ladder",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3373747037239666391
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7763441890753530925
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16934074486940272707,
+                "Child Entity Order": [
+                    "Entity_[56154244044585]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2121109940375223730
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 1992188760874285384
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6765555883285126149
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2515414809540375733
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4739624830892397576
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7499709003890015632
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 283234775095295453,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[56154244044585]": {
+            "Id": "Entity_[56154244044585]",
+            "Name": "Ladder",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 352659693061826819
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17831678299430558511
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9207160187541761249,
+                    "Child Entity Order": [
+                        "Instance_[54633825621801]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14752719664826162557
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4405094703154873048
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14501170201502096840
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13595055343895194172
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10277381243965627856
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10240484391625861715,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[54633825621801]": {
+            "Source": "Prefabs/Blocks/LadderBlock.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[56154244044585]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 4294967295
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{29E84DAC-B6F8-5E01-8032-3BBE79AF5C92}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": ""
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{29E84DAC-B6F8-5E01-8032-3BBE79AF5C92}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/stonewall.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{D63BEB3D-92B5-5F52-8AA2-A6D2696004C3}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/stonewalldark.azmaterial"
+                }
+            ]
+        }
+    }
+}

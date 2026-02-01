@@ -61,10 +61,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 274434668
+                                    "guid": "{D327FB42-0319-50A5-96EA-5518AD930DB0}",
+                                    "subId": 270072037
                                 },
-                                "assetHint": "objects/_primitives/_sphere_1x1.fbx.azmodel"
+                                "assetHint": "assets/models/blocks/default_assetspackinersight_bd3719bb_a2d3_5fa6_b8f0_075c6b649af5_.fbx.azmodel"
                             }
                         }
                     }
@@ -155,7 +155,17 @@
                     "Id": 7533269286386610752,
                     "Parent Entity": "ContainerEntity",
                     "Transform Data": {
-                        "UniformScale": 0.4000000059604645
+                        "Translate": [
+                            0.0,
+                            -0.10492989420890808,
+                            -0.8951448202133179
+                        ],
+                        "Rotate": [
+                            -89.99994659423828,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 50.0
                     }
                 }
             }

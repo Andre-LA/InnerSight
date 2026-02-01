@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Grass",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11909279549240607533
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13843432649564282135
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17635097276080249603,
+                "Child Entity Order": [
+                    "Entity_[47066093246249]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8991853511327799970
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 9925342348585481219
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14367485595834034385
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16157730742151706819
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2963332353024229156
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11643212487300675578
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9016956950046295944,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[47066093246249]": {
+            "Id": "Entity_[47066093246249]",
+            "Name": "Grass",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5835561122573673148
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7140608535588699796
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 476580336974614527,
+                    "Child Entity Order": [
+                        "Instance_[45678818809641]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16647838003909403240
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9730368211655790752
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4753672814470096936
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13472399727585182691
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3308379869067158422
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7191119979092258662,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[45678818809641]": {
+            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[47066093246249]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 1994703137
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{964F345A-7831-545E-9F3F-60CC071DA33E}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/models/materials/grass01.azmaterial"
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{964F345A-7831-545E-9F3F-60CC071DA33E}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/grass01.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{09DFF66A-D1A8-5D89-8077-5F95796A59CB}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/darksoil.azmaterial"
+                }
+            ]
+        }
+    }
+}
