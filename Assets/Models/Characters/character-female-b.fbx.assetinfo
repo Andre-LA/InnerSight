@@ -1,0 +1,93 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "character-female-b",
+            "selectedRootBone": "RootNode",
+            "id": "{117FE19D-2301-5490-9BD7-EEDF31E25086}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MetaDataRule",
+                        "metaData": "AdjustActor -actorID $(ACTORID) -name \"character-female-b\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -motionExtractionNodeName \"RootNode\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{EC8CB18D-E017-5FA4-B5B6-FA0FD395235E}",
+            "name": "character-female-b",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.character-female-b",
+                    "RootNode.character-female-b.body-mesh",
+                    "RootNode.character-female-b.head-mesh",
+                    "RootNode.character-female-b.root",
+                    "RootNode.character-female-b.root.leg-left",
+                    "RootNode.character-female-b.root.leg-right",
+                    "RootNode.character-female-b.root.torso",
+                    "RootNode.character-female-b.root.torso.arm-left",
+                    "RootNode.character-female-b.root.torso.arm-right",
+                    "RootNode.character-female-b.root.torso.head"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "character-female-b",
+            "selectedRootBone": "RootNode",
+            "id": "{2F217C3E-F95C-5BFF-AA55-D46768A5CCF1}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "character-female-b",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.character-female-b",
+                    "RootNode.character-female-b.body-mesh",
+                    "RootNode.character-female-b.head-mesh",
+                    "RootNode.character-female-b.root",
+                    "RootNode.character-female-b.root.leg-left",
+                    "RootNode.character-female-b.root.leg-right",
+                    "RootNode.character-female-b.root.torso",
+                    "RootNode.character-female-b.root.torso.arm-left",
+                    "RootNode.character-female-b.root.torso.arm-right",
+                    "RootNode.character-female-b.root.torso.head"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "SkinRule"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{B13C1403-68BB-54CC-8518-218ADB7DD41E}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        }
+    ]
+}

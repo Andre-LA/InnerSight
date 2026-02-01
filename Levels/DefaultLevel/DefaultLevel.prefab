@@ -207,33 +207,33 @@
                         "Configuration": {
                             "diffuseImageAsset": {
                                 "assetId": {
-                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
-                                    "subId": 3000
+                                    "guid": "{A5767C6B-5DB4-5999-A717-4587BEDF5CDE}",
+                                    "subId": 2000
                                 },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
+                                "assetHint": "lightingpresets/default_iblskyboxcm_iblspecular.exr.streamingimage"
                             },
                             "specularImageAsset": {
                                 "assetId": {
-                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                    "guid": "{A5767C6B-5DB4-5999-A717-4587BEDF5CDE}",
                                     "subId": 2000
                                 },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
+                                "assetHint": "lightingpresets/default_iblskyboxcm_iblspecular.exr.streamingimage"
                             }
                         }
                     },
                     "diffuseImageAsset": {
                         "assetId": {
-                            "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
-                            "subId": 3000
+                            "guid": "{A5767C6B-5DB4-5999-A717-4587BEDF5CDE}",
+                            "subId": 2000
                         },
-                        "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
+                        "assetHint": "lightingpresets/default_iblskyboxcm_iblspecular.exr.streamingimage"
                     },
                     "specularImageAsset": {
                         "assetId": {
-                            "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                            "guid": "{A5767C6B-5DB4-5999-A717-4587BEDF5CDE}",
                             "subId": 2000
                         },
-                        "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
+                        "assetHint": "lightingpresets/default_iblskyboxcm_iblspecular.exr.streamingimage"
                     }
                 },
                 "Component_[14994774102579326069]": {

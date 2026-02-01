@@ -1,0 +1,36 @@
+{
+    "values": [
+        {
+            "$type": "MotionGroup",
+            "name": "character_walk",
+            "selectedRootBone": "RootNode",
+            "id": "{57DAD0C6-1ECA-513F-B7A6-B4EC61FDE5DE}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "targetCoordinateSystem": 1,
+                        "useAdvancedData": true,
+                        "rotation": [
+                            0.7071067690849304,
+                            0.0,
+                            0.0,
+                            0.7071067094802856
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Models/Characters/character_walk_fbx.procprefab",
+            "id": "{56266AE0-9A84-54EA-995E-5AE6BEA85BEC}"
+        }
+    ]
+}

@@ -50,6 +50,404 @@
         }
     },
     "Entities": {
+        "Entity_[63752661090529]": {
+            "Id": "Entity_[63752661090529]",
+            "Name": "Mus",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10564977604188134479
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2587322410970647195
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15739532661023262248,
+                    "Child Entity Order": [
+                        "Entity_[63756956057825]",
+                        "Entity_[63898689978593]",
+                        "Entity_[865873225935]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11550552717369993654
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10332247089201181443
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1982670859287251325
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13192716848096238980
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 4422382614160727398,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{2D41463E-6E4D-50EE-82FF-B66E55052E06}",
+                            "path": "Assets/ScriptCanvas/MusCtrl.scriptcanvas"
+                        },
+                        "sourceName": "MusCtrl.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{2D41463E-6E4D-50EE-82FF-B66E55052E06}",
+                                "path": "Assets/ScriptCanvas/MusCtrl.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "",
+                                        "label": "RedPlayback"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{0237BEC1-BAA1-40D0-9FBD-065AB8BD369C}"
+                                    },
+                                    "VariableName": "RedPlayback",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0,
+                                        "label": "TransitionSpeed"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{4E8E931D-4551-4983-B275-705D4B51A521}"
+                                    },
+                                    "VariableName": "TransitionSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{DC6F5EC4-C20F-4B3C-9B2C-06C05E977B0E}"
+                                    },
+                                    "VariableName": "BluePlayback",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "",
+                                        "label": "NonePlayback"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{EBE165DD-98E2-49EB-BCE1-BABA5DA8D546}"
+                                    },
+                                    "VariableName": "NonePlayback",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[63898689978593]",
+                                        "label": "RedPlayback"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{0237BEC1-BAA1-40D0-9FBD-065AB8BD369C}"
+                                    },
+                                    "VariableName": "RedPlayback",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 3.0,
+                                        "label": "TransitionSpeed"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{4E8E931D-4551-4983-B275-705D4B51A521}"
+                                    },
+                                    "VariableName": "TransitionSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[865873225935]"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{DC6F5EC4-C20F-4B3C-9B2C-06C05E977B0E}"
+                                    },
+                                    "VariableName": "BluePlayback",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[63756956057825]",
+                                        "label": "NonePlayback"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{EBE165DD-98E2-49EB-BCE1-BABA5DA8D546}"
+                                    },
+                                    "VariableName": "NonePlayback",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8581500328393590467
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13071979743090089075,
+                    "Parent Entity": "Entity_[95933204052998]"
+                }
+            }
+        },
+        "Entity_[63756956057825]": {
+            "Id": "Entity_[63756956057825]",
+            "Name": "Base",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3578256355195330252
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9112568019350220125
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3034556624155690706
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10136482557380372306
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12138204895759989275
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 4708142331038338594,
+                    "Controller": {
+                        "Config": {
+                            "Autoplay": true,
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{57F0E3C1-6241-5B23-B1E7-05983EA8D1E0}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/normal_jungle-jordaoaq-ggj26.wav.miniaudio"
+                            },
+                            "Volume": 0.0,
+                            "Loop": true
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10505885338538799467
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8540389954994952860
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4020100966019124015
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5488175873030574553,
+                    "Parent Entity": "Entity_[63752661090529]"
+                }
+            }
+        },
+        "Entity_[63898689978593]": {
+            "Id": "Entity_[63898689978593]",
+            "Name": "Red",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3578256355195330252
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9112568019350220125
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3034556624155690706
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10136482557380372306
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12138204895759989275
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 4708142331038338594,
+                    "Controller": {
+                        "Config": {
+                            "Autoplay": true,
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{2CF7E8A2-908A-55B9-A827-F937183A3DE1}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/dark_jungle-jordao-ggj26.wav.miniaudio"
+                            },
+                            "Volume": 0.0,
+                            "Loop": true
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10505885338538799467
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8540389954994952860
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4020100966019124015
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5488175873030574553,
+                    "Parent Entity": "Entity_[63752661090529]"
+                }
+            }
+        },
+        "Entity_[865873225935]": {
+            "Id": "Entity_[865873225935]",
+            "Name": "Blue",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3578256355195330252
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9112568019350220125
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3034556624155690706
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10136482557380372306
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12138204895759989275
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 4708142331038338594,
+                    "Controller": {
+                        "Config": {
+                            "Autoplay": true,
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{6FE83933-CBB3-5FE4-9A9F-ECEFF331E795}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/bright_jungle-jordao-ggj26.wav.miniaudio"
+                            },
+                            "Volume": 0.0,
+                            "Loop": true
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10505885338538799467
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8540389954994952860
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4020100966019124015
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5488175873030574553,
+                    "Parent Entity": "Entity_[63752661090529]"
+                }
+            }
+        },
         "Entity_[95933204052998]": {
             "Id": "Entity_[95933204052998]",
             "Name": "SceneManager",
@@ -66,7 +464,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 6041843406914637123,
                     "Child Entity Order": [
-                        "Entity_[95937499020294]"
+                        "Entity_[95937499020294]",
+                        "Entity_[63752661090529]"
                     ]
                 },
                 "EditorInspectorComponent": {
