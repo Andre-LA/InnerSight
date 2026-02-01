@@ -1,0 +1,69 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Empty",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16616931740997949210
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2778716686621881360
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1069995033707506449,
+                "Child Entity Order": [
+                    "Instance_[2106893456580716]/ContainerEntity"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4185413252280323606
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 4068240492793213930
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1499221618774487829
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10852705643903064770
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12239744644494076517
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17437522806552955660
+            },
+            "LocalViewBookmarkComponent": {
+                "$type": "LocalViewBookmarkComponent",
+                "Id": 13304830826943444634,
+                "LocalBookmarkFileName": "MainMenu_17699711851397594.setreg"
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4584354821622104079,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[2106893456580716]": {
+            "Source": "Prefabs/Blocks/Intanced/MainMenu.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../ContainerEntity"
+                }
+            ]
+        }
+    }
+}
