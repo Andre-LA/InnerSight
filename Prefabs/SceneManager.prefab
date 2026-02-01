@@ -547,10 +547,10 @@
                                             {
                                                 "asset": {
                                                     "assetId": {
-                                                        "guid": "{5C254533-4896-5033-80B3-AE75B46599FF}",
-                                                        "subId": 3252886073
+                                                        "guid": "{6E60F266-DCD0-5124-AED5-06A23AFC995B}",
+                                                        "subId": 1996534256
                                                     },
-                                                    "assetHint": "prefabs/puzzles/puzzle01.spawnable"
+                                                    "assetHint": "prefabs/puzzles/puzzle01d.spawnable"
                                                 }
                                             },
                                             {
