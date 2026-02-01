@@ -547,19 +547,19 @@
                                             {
                                                 "asset": {
                                                     "assetId": {
-                                                        "guid": "{5C254533-4896-5033-80B3-AE75B46599FF}",
-                                                        "subId": 3252886073
+                                                        "guid": "{A994BE1B-BBA6-50AC-8C63-9D1CD4C9AB3D}",
+                                                        "subId": 1524084229
                                                     },
-                                                    "assetHint": "prefabs/puzzles/puzzle01.spawnable"
+                                                    "assetHint": "prefabs/puzzles/puzzlefinal.spawnable"
                                                 }
                                             },
                                             {
                                                 "asset": {
                                                     "assetId": {
-                                                        "guid": "{6AF438D0-701B-543F-B68A-54CB5CBFACD9}",
-                                                        "subId": 1671591878
+                                                        "guid": "{0586C5E5-3FC2-5025-9BF2-A2B49FA4D7D5}",
+                                                        "subId": 171065589
                                                     },
-                                                    "assetHint": "levels/materialconfig/materialconfig.spawnable"
+                                                    "assetHint": "prefabs/puzzles/finalscreentest.spawnable"
                                                 }
                                             }
                                         ]
