@@ -4,7 +4,7 @@
     "propertyValues": {
         "baseColor.factor": 0.0,
         "emissive.enable": true,
-        "emissive.intensity": 10.0,
+        "emissive.intensity": 4.900000095367432,
         "general.applySpecularAA": false,
         "general.castShadows": false,
         "general.doubleSided": true,

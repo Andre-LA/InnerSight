@@ -8,7 +8,7 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/dark_brick_wall_diff_4k.png",
+        "baseColor.textureMap": "Textures/FlatTextures/BrickDifuseRed.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,9 +18,7 @@
         "normal.factor": 1.2999999523162842,
         "normal.flipX": true,
         "normal.flipY": true,
-        "normal.textureMap": "Textures/dark_brick_wall_nor_gl_4k.png",
         "opacity.factor": 1.0,
-        "roughness.factor": 0.4000000059604645,
-        "roughness.textureMap": "Textures/dark_brick_wall_rough_4k.png"
+        "uv.scale": 2.0
     }
 }

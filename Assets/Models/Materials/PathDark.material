@@ -8,7 +8,7 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/rock_wall_16_diff_1k.png",
+        "baseColor.textureMap": "Textures/FlatTextures/pathRed.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -16,10 +16,7 @@
             1.0
         ],
         "normal.factor": 1.5,
-        "normal.textureMap": "Textures/rock_wall_16_nor_gl_1k.exr",
         "opacity.factor": 1.0,
-        "roughness.factor": 0.4000000059604645,
-        "roughness.textureMap": "Textures/rock_wall_16_rough_1k.png",
         "roughness.upperBound": 0.550000011920929
     }
 }

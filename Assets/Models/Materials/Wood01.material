@@ -3,12 +3,11 @@
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
-            1.0,
-            0.48514533042907715,
-            0.013702602125704288,
+            0.1111162006855011,
+            0.04885938763618469,
+            0.0,
             1.0
         ],
-        "baseColor.textureMap": "Textures/pine_bark_diff_4k.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,10 +17,8 @@
         "normal.factor": 1.2999999523162842,
         "normal.flipX": true,
         "normal.flipY": true,
-        "normal.textureMap": "Textures/pine_bark_nor_gl_4k.png",
         "opacity.factor": 1.0,
-        "roughness.factor": 0.20000000298023224,
-        "roughness.textureMap": "Textures/pine_bark_rough_4k.png",
+        "roughness.factor": 0.6000000238418579,
         "uv.tileU": 2.0,
         "uv.tileV": 2.0
     }
