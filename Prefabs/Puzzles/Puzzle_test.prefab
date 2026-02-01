@@ -327,7 +327,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": -7.3171515464782715
+                    "value": -7.317151546478272
                 },
                 {
                     "op": "replace",
@@ -348,6 +348,10 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
                     "value": -20.51887321472168
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[3073533717214305]/Components/EditorScriptCanvasComponent"
                 }
             ]
         },
@@ -422,7 +426,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 0.43171513080596924
+                    "value": 0.4317151308059693
                 },
                 {
                     "op": "replace",
@@ -482,7 +486,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 0.43171513080596924
+                    "value": 0.4317151308059693
                 },
                 {
                     "op": "replace",
@@ -512,7 +516,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 0.43171513080596924
+                    "value": 0.4317151308059693
                 },
                 {
                     "op": "replace",
@@ -532,12 +536,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -3.6596338748931885
+                    "value": -3.659633874893189
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 0.43171513080596924
+                    "value": 0.4317151308059693
                 },
                 {
                     "op": "replace",

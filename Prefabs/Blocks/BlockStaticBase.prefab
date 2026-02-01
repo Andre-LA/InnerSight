@@ -110,46 +110,6 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent",
-                    "value": {
-                        "$type": "AZ::Render::EditorMeshComponent",
-                        "Id": 12030743981960452941,
-                        "Controller": {
-                            "Configuration": {
-                                "ModelAsset": {
-                                    "assetId": {
-                                        "guid": "{E588282C-7C4B-51E6-84AB-E75F9FEC2D0A}",
-                                        "subId": 269946244
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/models/blocks/standardblock.fbx.azmodel"
-                                },
-                                "SortKey": 0,
-                                "ExcludeFromReflectionCubeMaps": false,
-                                "UseForwardPassIBLSpecular": false,
-                                "IsRayTracingEnabled": true,
-                                "IsAlwaysDynamic": false,
-                                "SupportRayIntersection": false,
-                                "LodType": 0,
-                                "LodOverride": 0,
-                                "MinimumScreenCoverage": 0.0009259259095415472,
-                                "QualityDecayRate": 0.5,
-                                "LightingChannelConfig": {
-                                    "lightingChannelFlags": [
-                                        true,
-                                        true,
-                                        true,
-                                        true,
-                                        true
-                                    ]
-                                }
-                            }
-                        },
-                        "meshStats": {}
-                    }
-                },
-                {
-                    "op": "add",
                     "path": "/Entities/Entity_[217490052646069]/Components/EditorColliderComponent",
                     "value": {
                         "$type": "EditorColliderComponent",
@@ -379,6 +339,60 @@
                     "value": {
                         "$type": "EditorStaticRigidBodyComponent",
                         "Id": 14614907710706583074
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent",
+                    "value": {
+                        "$type": "AZ::Render::EditorMeshComponent",
+                        "Id": 12030743981960452941,
+                        "Controller": {
+                            "Configuration": {
+                                "ModelAsset": {
+                                    "assetId": {
+                                        "guid": "{E588282C-7C4B-51E6-84AB-E75F9FEC2D0A}",
+                                        "subId": 269946244
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/models/blocks/standardblock.fbx.azmodel"
+                                },
+                                "SortKey": 0,
+                                "ExcludeFromReflectionCubeMaps": false,
+                                "UseForwardPassIBLSpecular": false,
+                                "IsRayTracingEnabled": true,
+                                "IsAlwaysDynamic": false,
+                                "SupportRayIntersection": false,
+                                "LodType": 0,
+                                "LodOverride": 0,
+                                "MinimumScreenCoverage": 0.0009259259095415473,
+                                "QualityDecayRate": 0.5,
+                                "LightingChannelConfig": {
+                                    "lightingChannelFlags": [
+                                        true,
+                                        true,
+                                        true,
+                                        true,
+                                        true
+                                    ]
+                                }
+                            }
+                        },
+                        "meshStats": {}
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent",
+                    "value": {
+                        "$type": "EditorMaterialComponent",
+                        "Id": 17966228121509705650,
+                        "Controller": {
+                            "Configuration": {
+                                "materials": []
+                            }
+                        },
+                        "materialSlotsByLodEnabled": false
                     }
                 }
             ]

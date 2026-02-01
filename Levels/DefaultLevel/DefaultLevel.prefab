@@ -20,7 +20,7 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Instance_[95589606669318]/ContainerEntity"
+                    "Instance_[981533985651718]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -437,8 +437,8 @@
         }
     },
     "Instances": {
-        "Instance_[95589606669318]": {
-            "Source": "Prefabs/Camera.prefab",
+        "Instance_[981533985651718]": {
+            "Source": "Prefabs/SceneManager.prefab",
             "Patches": [
                 {
                     "op": "replace",
