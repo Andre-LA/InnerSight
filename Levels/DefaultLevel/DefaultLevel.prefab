@@ -121,6 +121,50 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[3013320502708128]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[95933204052998]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/0/asset/assetId/guid",
+                    "value": "{4C6BD3B6-F54A-53E4-9430-A5D987FC504D}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[95933204052998]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/0/asset/assetId/subId",
+                    "value": 2835604352
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[95933204052998]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/0/asset/assetHint",
+                    "value": "prefabs/blocks/intanced/mainmenu.spawnable"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[95933204052998]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/1/asset/assetId/guid",
+                    "value": "{A994BE1B-BBA6-50AC-8C63-9D1CD4C9AB3D}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[95933204052998]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/1/asset/assetId/subId",
+                    "value": 1524084229
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[95933204052998]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/1/asset/assetHint",
+                    "value": "prefabs/puzzles/puzzlefinal.spawnable"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[95933204052998]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/2",
+                    "value": {
+                        "asset": {
+                            "assetId": {
+                                "guid": "{0586C5E5-3FC2-5025-9BF2-A2B49FA4D7D5}",
+                                "subId": 171065589
+                            },
+                            "loadBehavior": "QueueLoad",
+                            "assetHint": "prefabs/puzzles/finalscreentest.spawnable"
+                        }
+                    }
                 }
             ]
         }
