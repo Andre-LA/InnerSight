@@ -253,14 +253,14 @@
                     "Parent Entity": "Entity_[1176639161715]",
                     "Transform Data": {
                         "Translate": [
-                            -2.3000001907348633,
-                            -3.9368600845336914,
-                            1.0
+                            -1.5191187858581543,
+                            1.3512332439422607,
+                            1.4957966804504395
                         ],
                         "Rotate": [
-                            -2.050307512283325,
-                            1.9552897214889526,
-                            -43.623355865478516
+                            16.16255760192871,
+                            19.87520408630371,
+                            -130.44677734375
                         ]
                     }
                 },
@@ -275,13 +275,6 @@
                 "Component_[7169798125182238623]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7169798125182238623
-                },
-                "Component_[7255796294953281766]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 7255796294953281766,
-                    "m_template": {
-                        "$type": "FlyCameraInputComponent"
-                    }
                 },
                 "Component_[8866210352157164042]": {
                     "$type": "EditorInspectorComponent",

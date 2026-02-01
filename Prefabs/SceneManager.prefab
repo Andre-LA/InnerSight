@@ -552,6 +552,15 @@
                                                     },
                                                     "assetHint": "prefabs/puzzles/puzzle01.spawnable"
                                                 }
+                                            },
+                                            {
+                                                "asset": {
+                                                    "assetId": {
+                                                        "guid": "{6AF438D0-701B-543F-B68A-54CB5CBFACD9}",
+                                                        "subId": 1671591878
+                                                    },
+                                                    "assetHint": "levels/materialconfig/materialconfig.spawnable"
+                                                }
                                             }
                                         ]
                                     },
