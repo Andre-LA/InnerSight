@@ -8,21 +8,18 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/grassy_cobblestone_diff_1k.png",
+        "baseColor.textureMap": "Textures/painted_brick_diff_4k.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "normal.factor": 1.2000000476837158,
-        "normal.textureMap": "Textures/grassy_cobblestone_nor_gl_1k.png",
+        "normal.factor": 1.5,
+        "normal.textureMap": "Textures/painted_brick_nor_gl_4k.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.4000000059604645,
-        "roughness.lowerBound": 0.009999999776482582,
-        "roughness.textureMap": "Textures/grassy_cobblestone_rough_1k.png",
-        "roughness.upperBound": 0.5400000214576721,
-        "uv.tileU": 2.0,
-        "uv.tileV": 2.0
+        "roughness.textureMap": "Textures/painted_brick_rough_4k.png",
+        "roughness.upperBound": 0.800000011920929
     }
 }

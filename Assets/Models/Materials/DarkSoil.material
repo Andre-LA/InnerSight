@@ -8,14 +8,17 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/Solo 18.png",
+        "baseColor.textureMap": "Textures/burned_ground_01_diff_1k.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
+        "normal.factor": 1.2000000476837158,
+        "normal.textureMap": "Textures/burned_ground_01_nor_gl_1k.png",
         "opacity.factor": 1.0,
-        "roughness.factor": 0.5
+        "roughness.factor": 0.5,
+        "roughness.textureMap": "Textures/burned_ground_01_rough_1k.png"
     }
 }

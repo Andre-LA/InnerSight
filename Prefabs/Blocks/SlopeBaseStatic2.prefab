@@ -110,21 +110,6 @@
                 },
                 {
                     "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
-                    "value": "{3104DCF5-6DD3-553C-8082-85C0695F317A}"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
-                    "value": 275761623
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
-                    "value": "assets/models/blocks/ramphigh.fbx.azmodel"
-                },
-                {
-                    "op": "replace",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Position/2",
                     "value": 0.25
                 },
@@ -202,7 +187,7 @@
                                 "Configuration": [
                                     0.125,
                                     1.0,
-                                    0.46000000834465027
+                                    0.4600000083446502
                                 ]
                             },
                             "Capsule": {
@@ -296,7 +281,7 @@
                             ],
                             "Rotation": [
                                 0.0,
-                                0.22792604565620422,
+                                0.22792604565620425,
                                 0.0,
                                 0.973678469657898
                             ],
@@ -406,6 +391,31 @@
                         "ComponentMode": {},
                         "HasNonUniformScale": false
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
+                    "value": "{3104DCF5-6DD3-553C-8082-85C0695F317A}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
+                    "value": 275761623
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/models/blocks/ramphigh.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{F9960728-D2C1-513D-B790-69A75EB2D5A9}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/marble.azmaterial"
                 }
             ]
         }
