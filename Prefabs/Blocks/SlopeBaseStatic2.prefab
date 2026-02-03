@@ -416,6 +416,11 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetHint",
                     "value": "assets/models/materials/marble.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.0
                 }
             ]
         }

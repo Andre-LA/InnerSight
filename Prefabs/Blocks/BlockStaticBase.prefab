@@ -352,10 +352,10 @@
                                 "ModelAsset": {
                                     "assetId": {
                                         "guid": "{E588282C-7C4B-51E6-84AB-E75F9FEC2D0A}",
-                                        "subId": 269946244
+                                        "subId": 276175173
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/models/blocks/standardblock.fbx.azmodel"
+                                    "assetHint": "assets/models/blocks/default_standardblock_9daea50e_c56d_57c9_ae06_66f5b87e11df_.fbx.azmodel"
                                 },
                                 "SortKey": 0,
                                 "ExcludeFromReflectionCubeMaps": false,
@@ -650,6 +650,11 @@
                             }
                         }
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[217494347613365]/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 100.0
                 }
             ]
         }

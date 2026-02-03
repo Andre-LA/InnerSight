@@ -110,6 +110,31 @@
                 },
                 {
                     "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Position/0",
+                    "value": -0.08999999612569809
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Position/2",
+                    "value": 0.1599999964237213
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/1",
+                    "value": 0.22792604565620425
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/3",
+                    "value": 0.973678469657898
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ShapeConfiguration/Box/Configuration/2",
+                    "value": 0.25
+                },
+                {
+                    "op": "replace",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
                     "value": "{4D033BD0-907C-5A8B-A8E2-7F9E109A7B97}"
                 },
@@ -125,28 +150,8 @@
                 },
                 {
                     "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Position/0",
-                    "value": -0.08999999612569809
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Position/2",
-                    "value": 0.1599999964237213
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/1",
-                    "value": 0.22792604565620422
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/3",
-                    "value": 0.973678469657898
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorColliderComponent/ShapeConfiguration/Box/Configuration/2",
-                    "value": 0.25
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.0
                 }
             ]
         }
