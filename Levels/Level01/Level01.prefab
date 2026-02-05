@@ -197,48 +197,8 @@
                 },
                 {
                     "op": "replace",
-                    "path": "/Instances/Instance_[947664324349681]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[947088798732017]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
-                },
-                {
-                    "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[71825582268710]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[945937747496689]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[946229805272817]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[945649984687857]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[946225510305521]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[946801035923185]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[947376561540849]/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0/Datum/value",
-                    "value": ""
                 }
             ]
         },
@@ -247,28 +207,8 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[1751069399416282]/Components/Component_[7378860763541895402]/Controller/Configuration/AngularDiameter",
-                    "value": 0.5
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1751069399416282]/Components/Component_[7378860763541895402]/Controller/Configuration/Shadow Enabled",
-                    "value": false
-                },
-                {
-                    "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[71825582268710]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1751077989350874]/Components/Component_[14936200426671614999]/Controller/Configuration/exposure",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1751077989350874]/Components/Component_[14936200426671614999]/exposure",
-                    "value": 0.0
                 }
             ]
         }

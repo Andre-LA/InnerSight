@@ -137,8 +137,8 @@
                     "Controller": {
                         "Configuration": {
                             "Intensity": 1.0,
-                            "AngularDiameter": 3.0,
                             "CameraEntityId": "",
+                            "Shadow Enabled": false,
                             "ShadowFilterMethod": 1,
                             "Affects GI Factor": 2.0
                         }
@@ -276,8 +276,7 @@
                                     "subId": 2000
                                 },
                                 "assetHint": "lightingpresets/lowcontrast/blouberg_sunrise_1_4k_iblskyboxcm_iblspecular.exr.streamingimage"
-                            },
-                            "exposure": 3.5
+                            }
                         }
                     },
                     "diffuseImageAsset": {
@@ -293,8 +292,7 @@
                             "subId": 2000
                         },
                         "assetHint": "lightingpresets/lowcontrast/blouberg_sunrise_1_4k_iblskyboxcm_iblspecular.exr.streamingimage"
-                    },
-                    "exposure": 3.5
+                    }
                 },
                 "Component_[14994774102579326069]": {
                     "$type": "EditorDisabledCompositionComponent",
