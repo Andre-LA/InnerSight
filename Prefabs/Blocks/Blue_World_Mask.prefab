@@ -110,28 +110,6 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Entities/Entity_[359016928727064]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
-                    "value": {
-                        "Key": {
-                            "lodIndex": 18446744073709551615,
-                            "materialSlotStableId": 4294967295
-                        },
-                        "Value": {
-                            "MaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B8972ADB-DBA9-5807-9742-2B14453FDD96}",
-                                    "subId": 0
-                                },
-                                "loadBehavior": "QueueLoad",
-                                "assetHint": ""
-                            },
-                            "PropertyOverrides": [],
-                            "ModelUvOverrides": []
-                        }
-                    }
-                },
-                {
-                    "op": "add",
                     "path": "/Entities/Entity_[359012633759768]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/0",
                     "value": {
                         "Datum": {
@@ -196,6 +174,28 @@
                     "op": "add",
                     "path": "/Entities/Entity_[359012633759768]/Components/EditorTagComponent/Tags/1",
                     "value": "Blue"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[359016928727064]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 4294967295
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{7AF4871C-0C36-530D-A0E7-7D3B0AC26281}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": ""
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
                 }
             ]
         }

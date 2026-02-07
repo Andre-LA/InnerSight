@@ -104,28 +104,6 @@
             "Source": "Prefabs/Blocks/WorldMaskBase.prefab",
             "Patches": [
                 {
-                    "op": "add",
-                    "path": "/Entities/Entity_[359016928727064]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
-                    "value": {
-                        "Key": {
-                            "lodIndex": 18446744073709551615,
-                            "materialSlotStableId": 4294967295
-                        },
-                        "Value": {
-                            "MaterialAsset": {
-                                "assetId": {
-                                    "guid": "{9C47066E-BD8F-5C1B-B935-933296BBE312}",
-                                    "subId": 0
-                                },
-                                "loadBehavior": "QueueLoad",
-                                "assetHint": "materials/presets/macbeth/15_red.azmaterial"
-                            },
-                            "PropertyOverrides": [],
-                            "ModelUvOverrides": []
-                        }
-                    }
-                },
-                {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[361482239954968]"
@@ -196,6 +174,28 @@
                     "op": "add",
                     "path": "/Entities/Entity_[359012633759768]/Components/EditorTagComponent/Tags/1",
                     "value": "Red"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[359016928727064]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 4294967295
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{3392BCDF-ED8B-56E5-AC67-AD9D8AF75F20}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": ""
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
                 }
             ]
         }
