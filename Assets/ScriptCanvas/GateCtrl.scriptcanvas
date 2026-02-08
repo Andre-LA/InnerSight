@@ -1,0 +1,2140 @@
+{
+    "Type": "JsonSerialization",
+    "Version": 1,
+    "ClassName": "ScriptCanvasData",
+    "ClassData": {
+        "m_scriptCanvas": {
+            "Id": {
+                "id": 267074079711180
+            },
+            "Name": "Script Canvas Graph",
+            "Components": {
+                "Component_[10229409979122503739]": {
+                    "$type": "EditorGraphVariableManagerComponent",
+                    "Id": 10229409979122503739,
+                    "m_variableData": {
+                        "m_nameVariableMap": [
+                            {
+                                "Key": {
+                                    "m_id": "{1FEB367C-6F49-434B-BADE-180CA3EA9088}"
+                                },
+                                "Value": {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "label": "StartRotation2"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{1FEB367C-6F49-434B-BADE-180CA3EA9088}"
+                                    },
+                                    "VariableName": "StartRotation2"
+                                }
+                            },
+                            {
+                                "Key": {
+                                    "m_id": "{B7B3F7D6-F86E-4006-87EE-D48838D789CF}"
+                                },
+                                "Value": {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": {
+                                            "id": 2901262558
+                                        },
+                                        "label": "Door1"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{B7B3F7D6-F86E-4006-87EE-D48838D789CF}"
+                                    },
+                                    "VariableName": "Door1",
+                                    "InitialValueSource": 1
+                                }
+                            },
+                            {
+                                "Key": {
+                                    "m_id": "{D068D607-181E-48A7-AFC5-A495E9670582}"
+                                },
+                                "Value": {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "label": "StartRotation1"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D068D607-181E-48A7-AFC5-A495E9670582}"
+                                    },
+                                    "VariableName": "StartRotation1"
+                                }
+                            },
+                            {
+                                "Key": {
+                                    "m_id": "{F129C987-B1EF-4AD4-9308-C2A66D3CEEEE}"
+                                },
+                                "Value": {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": {
+                                            "id": 2901262558
+                                        },
+                                        "label": "Door2"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{F129C987-B1EF-4AD4-9308-C2A66D3CEEEE}"
+                                    },
+                                    "VariableName": "Door2",
+                                    "InitialValueSource": 1
+                                }
+                            }
+                        ]
+                    }
+                },
+                "Component_[11512361763285083582]": {
+                    "$type": "EditorGraph",
+                    "Id": 11512361763285083582,
+                    "m_graphData": {
+                        "m_nodes": [
+                            {
+                                "Id": {
+                                    "id": 267104144482252
+                                },
+                                "Name": "SC-Node(EqualTo)",
+                                "Components": {
+                                    "Component_[1032601567858360419]": {
+                                        "$type": "EqualTo",
+                                        "Id": 1032601567858360419,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{B06E70CF-297D-4A09-BBCD-7EFAA83CAE99}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Result",
+                                                "DisplayDataType": {
+                                                    "m_type": 0
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{204521CC-8FBC-4CFD-8C89-CCB1567BB3B1}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "toolTip": "Signal to perform the evaluation when desired.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{4D393435-0A95-4467-B43B-CFB067C636AA}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "True",
+                                                "toolTip": "Signaled if the result of the operation is true.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{E9A31BD8-A894-40DA-8347-C3E8A3A0A86B}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "False",
+                                                "toolTip": "Signaled if the result of the operation is false.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{FA3FFA60-2132-4581-BBD9-D831FCC16135}"
+                                                },
+                                                "DynamicTypeOverride": 3,
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Value A",
+                                                "DisplayDataType": {
+                                                    "m_type": 5
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DynamicGroup": {
+                                                    "Value": 3545012108
+                                                },
+                                                "DataType": 1
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{D77820F8-E3E6-42BC-A99A-19B5F45A60B5}"
+                                                },
+                                                "DynamicTypeOverride": 3,
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Value B",
+                                                "DisplayDataType": {
+                                                    "m_type": 5
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DynamicGroup": {
+                                                    "Value": 3545012108
+                                                },
+                                                "DataType": 1
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 5
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "AZStd::string",
+                                                "value": "",
+                                                "label": "Value A"
+                                            },
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 5
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "AZStd::string",
+                                                "value": "Blue",
+                                                "label": "Value B"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 1197394060795852
+                                },
+                                "Name": "SC-Node(Print)",
+                                "Components": {
+                                    "Component_[11339579351131635643]": {
+                                        "$type": "Print",
+                                        "Id": 11339579351131635643,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{3CBB2459-FABA-49B9-972D-10B2723EAE32}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "toolTip": "Input signal",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{ADD9B393-74F6-4B38-8BCE-E810173A8A10}"
+                                                },
+                                                "DynamicTypeOverride": 3,
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Value",
+                                                "toolTip": "Value which replaces instances of {Value} in the resulting string.",
+                                                "DisplayDataType": {
+                                                    "m_type": 8
+                                                },
+                                                "DisplayGroup": {
+                                                    "Value": 1015031923
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{1FEB367C-6F49-434B-BADE-180CA3EA9088}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{4A00245A-6FF7-4468-9140-EC14E589D472}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 8
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "label": "Value"
+                                            }
+                                        ],
+                                        "Id": 11339579351131635643,
+                                        "m_format": "R2 {Value}",
+                                        "m_arrayBindingMap": [
+                                            {
+                                                "Key": 1,
+                                                "Value": {
+                                                    "m_id": "{ADD9B393-74F6-4B38-8BCE-E810173A8A10}"
+                                                }
+                                            }
+                                        ],
+                                        "m_unresolvedString": [
+                                            "R2 ",
+                                            {}
+                                        ],
+                                        "m_formatSlotMap": {
+                                            "Value": {
+                                                "m_id": "{ADD9B393-74F6-4B38-8BCE-E810173A8A10}"
+                                            }
+                                        },
+                                        "Id": 11339579351131635643
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 1193751928528844
+                                },
+                                "Name": "SC-Node(Print)",
+                                "Components": {
+                                    "Component_[11339579351131635643]": {
+                                        "$type": "Print",
+                                        "Id": 11339579351131635643,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{3CBB2459-FABA-49B9-972D-10B2723EAE32}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "toolTip": "Input signal",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{ADD9B393-74F6-4B38-8BCE-E810173A8A10}"
+                                                },
+                                                "DynamicTypeOverride": 3,
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Value",
+                                                "toolTip": "Value which replaces instances of {Value} in the resulting string.",
+                                                "DisplayDataType": {
+                                                    "m_type": 8
+                                                },
+                                                "DisplayGroup": {
+                                                    "Value": 1015031923
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{D068D607-181E-48A7-AFC5-A495E9670582}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{4A00245A-6FF7-4468-9140-EC14E589D472}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 8
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "label": "Value"
+                                            }
+                                        ],
+                                        "Id": 11339579351131635643,
+                                        "m_format": "R1 {Value}",
+                                        "m_arrayBindingMap": [
+                                            {
+                                                "Key": 1,
+                                                "Value": {
+                                                    "m_id": "{ADD9B393-74F6-4B38-8BCE-E810173A8A10}"
+                                                }
+                                            }
+                                        ],
+                                        "m_unresolvedString": [
+                                            "R1 ",
+                                            {}
+                                        ],
+                                        "m_formatSlotMap": {
+                                            "Value": {
+                                                "m_id": "{ADD9B393-74F6-4B38-8BCE-E810173A8A10}"
+                                            }
+                                        },
+                                        "Id": 11339579351131635643
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267095554547660
+                                },
+                                "Name": "ReceiveScriptEvent",
+                                "Components": {
+                                    "Component_[11808808847838938041]": {
+                                        "$type": "ReceiveScriptEvent",
+                                        "Id": 11808808847838938041,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{BDC45AA1-BA87-4DAB-BF23-4E0B6F982FFE}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Connect",
+                                                "toolTip": "Connect this event handler to the specified entity.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{D7FE7B15-2310-404A-B4AF-CC3C5FF4D873}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Disconnect",
+                                                "toolTip": "Disconnect this event handler.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{C3F76691-0281-4A07-A812-D54C782D8441}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "OnConnected",
+                                                "toolTip": "Signaled when a connection has taken place.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{CD08300F-D5B3-47AF-952C-42720A45EEB0}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "OnDisconnected",
+                                                "toolTip": "Signaled when this event handler is disconnected.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{3CA4419D-0C77-4046-84D6-9B473FDBBFB7}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "OnFailure",
+                                                "toolTip": "Signaled when it is not possible to connect this handler.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{A5A7200E-51C6-4A61-A33C-B24D397402AC}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Name",
+                                                "DisplayDataType": {
+                                                    "m_type": 5
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{4D31CD7B-517F-436B-883F-E12BB4033F47}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "ExecutionSlot:MaskActivated",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                },
+                                                "IsLatent": true
+                                            }
+                                        ],
+                                        "Id": 11808808847838938041,
+                                        "m_version": 1,
+                                        "m_eventMap": [
+                                            {
+                                                "Key": {
+                                                    "Value": 1761637061
+                                                },
+                                                "Value": {
+                                                    "m_scriptEventAssetId": {
+                                                        "guid": "{B15DEB52-3309-58A7-A902-80E290CF8154}"
+                                                    },
+                                                    "m_eventName": "MaskActivated",
+                                                    "m_eventSlotId": {
+                                                        "m_id": "{4D31CD7B-517F-436B-883F-E12BB4033F47}"
+                                                    },
+                                                    "m_parameterSlotIds": [
+                                                        {
+                                                            "m_id": "{A5A7200E-51C6-4A61-A33C-B24D397402AC}"
+                                                        }
+                                                    ],
+                                                    "m_numExpectedArguments": 1
+                                                }
+                                            }
+                                        ],
+                                        "m_eventSlotMapping": {
+                                            "{38146557-09E1-4F82-8D9D-0A25ACC66A60}": {
+                                                "m_id": "{4D31CD7B-517F-436B-883F-E12BB4033F47}"
+                                            },
+                                            "{C7A8DF2F-B01D-4BFB-80BD-7AFEFE66C00B}": {
+                                                "m_id": "{A5A7200E-51C6-4A61-A33C-B24D397402AC}"
+                                            }
+                                        },
+                                        "m_scriptEventAssetId": {
+                                            "guid": "{B15DEB52-3309-58A7-A902-80E290CF8154}"
+                                        },
+                                        "m_asset": {
+                                            "assetId": {
+                                                "guid": "{B15DEB52-3309-58A7-A902-80E290CF8154}"
+                                            },
+                                            "loadBehavior": "PreLoad",
+                                            "assetHint": "assets/scriptevents/masknotifications.scriptevents"
+                                        },
+                                        "Id": 11808808847838938041,
+                                        "m_autoConnectToGraphOwner": false
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267091259580364
+                                },
+                                "Name": "SC-Node(Start)",
+                                "Components": {
+                                    "Component_[14982549612040912863]": {
+                                        "$type": "Start",
+                                        "Id": 14982549612040912863,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{9A8B1E57-ADCA-4D42-9CE5-67374FA49596}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "toolTip": "Signaled when the entity that owns this graph is fully activated.",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            }
+                                        ],
+                                        "Id": 14982549612040912863
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267086964613068
+                                },
+                                "Name": "SC-Node(SetLocalRotation)",
+                                "Components": {
+                                    "Component_[17708995765629578983]": {
+                                        "$type": "{E42861BD-1956-45AE-8DD7-CCFC1E3E5ACF} Method",
+                                        "Id": 17708995765629578983,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "EntityId: 0",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{B7B3F7D6-F86E-4006-87EE-D48838D789CF}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Vector3: 1",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{500BC726-9884-4FAF-8905-DFD6AF9DFFD4}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 1
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "EntityId",
+                                                "value": {
+                                                    "id": 2901262558
+                                                },
+                                                "label": "Source"
+                                            },
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 8
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    0.0,
+                                                    0.0,
+                                                    1.5707999467849731
+                                                ],
+                                                "label": "Euler Angles (Radians)"
+                                            }
+                                        ],
+                                        "methodType": 0,
+                                        "methodName": "SetLocalRotation",
+                                        "className": "TransformBus",
+                                        "resultSlotIDs": [
+                                            {}
+                                        ],
+                                        "inputSlots": [
+                                            {
+                                                "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                            },
+                                            {
+                                                "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                            }
+                                        ],
+                                        "prettyClassName": "TransformBus"
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267108439449548
+                                },
+                                "Name": "SC-Node(SetLocalRotation)",
+                                "Components": {
+                                    "Component_[17708995765629578983]": {
+                                        "$type": "{E42861BD-1956-45AE-8DD7-CCFC1E3E5ACF} Method",
+                                        "Id": 17708995765629578983,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "EntityId: 0",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{B7B3F7D6-F86E-4006-87EE-D48838D789CF}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Vector3: 1",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{D068D607-181E-48A7-AFC5-A495E9670582}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{500BC726-9884-4FAF-8905-DFD6AF9DFFD4}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 1
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "EntityId",
+                                                "value": {
+                                                    "id": 2901262558
+                                                },
+                                                "label": "Source"
+                                            },
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 8
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    0.0,
+                                                    0.0,
+                                                    1.5707999467849731
+                                                ],
+                                                "label": "Euler Angles (Radians)"
+                                            }
+                                        ],
+                                        "methodType": 0,
+                                        "methodName": "SetLocalRotation",
+                                        "className": "TransformBus",
+                                        "resultSlotIDs": [
+                                            {}
+                                        ],
+                                        "inputSlots": [
+                                            {
+                                                "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                            },
+                                            {
+                                                "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                            }
+                                        ],
+                                        "prettyClassName": "TransformBus"
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267112734416844
+                                },
+                                "Name": "SC-Node(SetLocalRotation)",
+                                "Components": {
+                                    "Component_[17708995765629578983]": {
+                                        "$type": "{E42861BD-1956-45AE-8DD7-CCFC1E3E5ACF} Method",
+                                        "Id": 17708995765629578983,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "EntityId: 0",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{F129C987-B1EF-4AD4-9308-C2A66D3CEEEE}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Vector3: 1",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{500BC726-9884-4FAF-8905-DFD6AF9DFFD4}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 1
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "EntityId",
+                                                "value": {
+                                                    "id": 2901262558
+                                                },
+                                                "label": "Source"
+                                            },
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 8
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    0.0,
+                                                    0.0,
+                                                    1.5707999467849731
+                                                ],
+                                                "label": "Euler Angles (Radians)"
+                                            }
+                                        ],
+                                        "methodType": 0,
+                                        "methodName": "SetLocalRotation",
+                                        "className": "TransformBus",
+                                        "resultSlotIDs": [
+                                            {}
+                                        ],
+                                        "inputSlots": [
+                                            {
+                                                "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                            },
+                                            {
+                                                "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                            }
+                                        ],
+                                        "prettyClassName": "TransformBus"
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267082669645772
+                                },
+                                "Name": "SC-Node(SetLocalRotation)",
+                                "Components": {
+                                    "Component_[17708995765629578983]": {
+                                        "$type": "{E42861BD-1956-45AE-8DD7-CCFC1E3E5ACF} Method",
+                                        "Id": 17708995765629578983,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "EntityId: 0",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{F129C987-B1EF-4AD4-9308-C2A66D3CEEEE}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Vector3: 1",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{1FEB367C-6F49-434B-BADE-180CA3EA9088}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{500BC726-9884-4FAF-8905-DFD6AF9DFFD4}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 1
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "EntityId",
+                                                "value": {
+                                                    "id": 2901262558
+                                                },
+                                                "label": "Source"
+                                            },
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 8
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    0.0,
+                                                    0.0,
+                                                    1.5707999467849731
+                                                ],
+                                                "label": "Euler Angles (Radians)"
+                                            }
+                                        ],
+                                        "methodType": 0,
+                                        "methodName": "SetLocalRotation",
+                                        "className": "TransformBus",
+                                        "resultSlotIDs": [
+                                            {}
+                                        ],
+                                        "inputSlots": [
+                                            {
+                                                "m_id": "{E1A5C9A9-8432-4888-B4C2-547285039544}"
+                                            },
+                                            {
+                                                "m_id": "{507DBA0F-3F33-4C29-96BE-49B57B0612CD}"
+                                            }
+                                        ],
+                                        "prettyClassName": "TransformBus"
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267099849514956
+                                },
+                                "Name": "SC-Node(GetLocalRotation)",
+                                "Components": {
+                                    "Component_[5775812968184941821]": {
+                                        "$type": "{E42861BD-1956-45AE-8DD7-CCFC1E3E5ACF} Method",
+                                        "Id": 5775812968184941821,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{F9E6EBC0-7FE9-4A87-80E5-1D57F98E419B}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "EntityId",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{B7B3F7D6-F86E-4006-87EE-D48838D789CF}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{4F0ABF75-38DE-4574-84E0-48186B322040}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{9641AF3E-932F-4E38-8FB2-01B23E752202}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{690CBA09-E5C4-4914-907D-9152A528652C}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Vector3",
+                                                "DisplayDataType": {
+                                                    "m_type": 8
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{D068D607-181E-48A7-AFC5-A495E9670582}"
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 1
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "EntityId",
+                                                "value": {
+                                                    "id": 2901262558
+                                                },
+                                                "label": "EntityId"
+                                            }
+                                        ],
+                                        "methodType": 0,
+                                        "methodName": "GetLocalRotation",
+                                        "className": "TransformBus",
+                                        "resultSlotIDs": [
+                                            {}
+                                        ],
+                                        "inputSlots": [
+                                            {
+                                                "m_id": "{F9E6EBC0-7FE9-4A87-80E5-1D57F98E419B}"
+                                            }
+                                        ],
+                                        "prettyClassName": "TransformBus"
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267078374678476
+                                },
+                                "Name": "SC-Node(GetLocalRotation)",
+                                "Components": {
+                                    "Component_[5775812968184941821]": {
+                                        "$type": "{E42861BD-1956-45AE-8DD7-CCFC1E3E5ACF} Method",
+                                        "Id": 5775812968184941821,
+                                        "Slots": [
+                                            {
+                                                "id": {
+                                                    "m_id": "{F9E6EBC0-7FE9-4A87-80E5-1D57F98E419B}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "EntityId",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{F129C987-B1EF-4AD4-9308-C2A66D3CEEEE}"
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{4F0ABF75-38DE-4574-84E0-48186B322040}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "In",
+                                                "Descriptor": {
+                                                    "ConnectionType": 1,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{9641AF3E-932F-4E38-8FB2-01B23E752202}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Out",
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 1
+                                                }
+                                            },
+                                            {
+                                                "id": {
+                                                    "m_id": "{690CBA09-E5C4-4914-907D-9152A528652C}"
+                                                },
+                                                "contracts": [
+                                                    {
+                                                        "$type": "SlotTypeContract"
+                                                    }
+                                                ],
+                                                "slotName": "Vector3",
+                                                "DisplayDataType": {
+                                                    "m_type": 8
+                                                },
+                                                "Descriptor": {
+                                                    "ConnectionType": 2,
+                                                    "SlotType": 2
+                                                },
+                                                "DataType": 1,
+                                                "IsReference": true,
+                                                "VariableReference": {
+                                                    "m_id": "{1FEB367C-6F49-434B-BADE-180CA3EA9088}"
+                                                }
+                                            }
+                                        ],
+                                        "Datums": [
+                                            {
+                                                "isOverloadedStorage": false,
+                                                "scriptCanvasType": {
+                                                    "m_type": 1
+                                                },
+                                                "isNullPointer": false,
+                                                "$type": "EntityId",
+                                                "value": {
+                                                    "id": 2901262558
+                                                },
+                                                "label": "EntityId"
+                                            }
+                                        ],
+                                        "methodType": 0,
+                                        "methodName": "GetLocalRotation",
+                                        "className": "TransformBus",
+                                        "resultSlotIDs": [
+                                            {}
+                                        ],
+                                        "inputSlots": [
+                                            {
+                                                "m_id": "{F9E6EBC0-7FE9-4A87-80E5-1D57F98E419B}"
+                                            }
+                                        ],
+                                        "prettyClassName": "TransformBus"
+                                    }
+                                }
+                            }
+                        ],
+                        "m_connections": [
+                            {
+                                "Id": {
+                                    "id": 267117029384140
+                                },
+                                "Name": "srcEndpoint=(Receive Script Event: Name), destEndpoint=(Equal To (==): Value A)",
+                                "Components": {
+                                    "Component_[14988634670843649947]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 14988634670843649947,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267095554547660
+                                            },
+                                            "slotId": {
+                                                "m_id": "{A5A7200E-51C6-4A61-A33C-B24D397402AC}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267104144482252
+                                            },
+                                            "slotId": {
+                                                "m_id": "{FA3FFA60-2132-4581-BBD9-D831FCC16135}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267121324351436
+                                },
+                                "Name": "srcEndpoint=(Receive Script Event: ExecutionSlot:MaskActivated), destEndpoint=(Equal To (==): In)",
+                                "Components": {
+                                    "Component_[11456753168673718399]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 11456753168673718399,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267095554547660
+                                            },
+                                            "slotId": {
+                                                "m_id": "{4D31CD7B-517F-436B-883F-E12BB4033F47}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267104144482252
+                                            },
+                                            "slotId": {
+                                                "m_id": "{204521CC-8FBC-4CFD-8C89-CCB1567BB3B1}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267125619318732
+                                },
+                                "Name": "srcEndpoint=(SetLocalRotation: Out), destEndpoint=(SetLocalRotation: In)",
+                                "Components": {
+                                    "Component_[10199656582828508787]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 10199656582828508787,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267086964613068
+                                            },
+                                            "slotId": {
+                                                "m_id": "{500BC726-9884-4FAF-8905-DFD6AF9DFFD4}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267112734416844
+                                            },
+                                            "slotId": {
+                                                "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267129914286028
+                                },
+                                "Name": "srcEndpoint=(Equal To (==): True), destEndpoint=(SetLocalRotation: In)",
+                                "Components": {
+                                    "Component_[739928221892406090]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 739928221892406090,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267104144482252
+                                            },
+                                            "slotId": {
+                                                "m_id": "{4D393435-0A95-4467-B43B-CFB067C636AA}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267086964613068
+                                            },
+                                            "slotId": {
+                                                "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267134209253324
+                                },
+                                "Name": "srcEndpoint=(SetLocalRotation: Out), destEndpoint=(SetLocalRotation: In)",
+                                "Components": {
+                                    "Component_[4441535568850408244]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 4441535568850408244,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267108439449548
+                                            },
+                                            "slotId": {
+                                                "m_id": "{500BC726-9884-4FAF-8905-DFD6AF9DFFD4}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267082669645772
+                                            },
+                                            "slotId": {
+                                                "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267138504220620
+                                },
+                                "Name": "srcEndpoint=(Equal To (==): False), destEndpoint=(SetLocalRotation: In)",
+                                "Components": {
+                                    "Component_[16253488466272607597]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 16253488466272607597,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267104144482252
+                                            },
+                                            "slotId": {
+                                                "m_id": "{E9A31BD8-A894-40DA-8347-C3E8A3A0A86B}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267108439449548
+                                            },
+                                            "slotId": {
+                                                "m_id": "{1C2E8ED9-74B8-4ECF-A3D8-7A9C0537297C}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267142799187916
+                                },
+                                "Name": "srcEndpoint=(GetLocalRotation: Out), destEndpoint=(GetLocalRotation: In)",
+                                "Components": {
+                                    "Component_[14953075248458841403]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 14953075248458841403,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267099849514956
+                                            },
+                                            "slotId": {
+                                                "m_id": "{9641AF3E-932F-4E38-8FB2-01B23E752202}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267078374678476
+                                            },
+                                            "slotId": {
+                                                "m_id": "{4F0ABF75-38DE-4574-84E0-48186B322040}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 267147094155212
+                                },
+                                "Name": "srcEndpoint=(On Graph Start: Out), destEndpoint=(GetLocalRotation: In)",
+                                "Components": {
+                                    "Component_[4811900888813242439]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 4811900888813242439,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267091259580364
+                                            },
+                                            "slotId": {
+                                                "m_id": "{9A8B1E57-ADCA-4D42-9CE5-67374FA49596}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267099849514956
+                                            },
+                                            "slotId": {
+                                                "m_id": "{4F0ABF75-38DE-4574-84E0-48186B322040}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 1197209377202124
+                                },
+                                "Name": "srcEndpoint=(GetLocalRotation: Out), destEndpoint=(Print: In)",
+                                "Components": {
+                                    "Component_[2487099297845809642]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 2487099297845809642,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 267078374678476
+                                            },
+                                            "slotId": {
+                                                "m_id": "{9641AF3E-932F-4E38-8FB2-01B23E752202}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 1193751928528844
+                                            },
+                                            "slotId": {
+                                                "m_id": "{3CBB2459-FABA-49B9-972D-10B2723EAE32}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 1200061235486668
+                                },
+                                "Name": "srcEndpoint=(Print: Out), destEndpoint=(Print: In)",
+                                "Components": {
+                                    "Component_[18228333585257198456]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 18228333585257198456,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 1193751928528844
+                                            },
+                                            "slotId": {
+                                                "m_id": "{4A00245A-6FF7-4468-9140-EC14E589D472}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 1197394060795852
+                                            },
+                                            "slotId": {
+                                                "m_id": "{3CBB2459-FABA-49B9-972D-10B2723EAE32}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Id": {
+                                    "id": 1200134249930700
+                                },
+                                "Name": "srcEndpoint=(Print: Out), destEndpoint=(Receive Script Event: Connect)",
+                                "Components": {
+                                    "Component_[17457549594388446205]": {
+                                        "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
+                                        "Id": 17457549594388446205,
+                                        "sourceEndpoint": {
+                                            "nodeId": {
+                                                "id": 1197394060795852
+                                            },
+                                            "slotId": {
+                                                "m_id": "{4A00245A-6FF7-4468-9140-EC14E589D472}"
+                                            }
+                                        },
+                                        "targetEndpoint": {
+                                            "nodeId": {
+                                                "id": 267095554547660
+                                            },
+                                            "slotId": {
+                                                "m_id": "{BDC45AA1-BA87-4DAB-BF23-4E0B6F982FFE}"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "m_scriptEventAssets": [
+                            [
+                                {
+                                    "id": 267095554547660
+                                },
+                                {}
+                            ]
+                        ]
+                    },
+                    "versionData": {
+                        "_grammarVersion": 1,
+                        "_runtimeVersion": 1,
+                        "_fileVersion": 1
+                    },
+                    "m_variableCounter": 2,
+                    "GraphCanvasData": [
+                        {
+                            "Key": {
+                                "id": 267074079711180
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{5F84B500-8C45-40D1-8EFC-A5306B241444}": {
+                                        "$type": "SceneComponentSaveData",
+                                        "ViewParams": {
+                                            "Scale": 0.87158963762588,
+                                            "AnchorX": -692.9866943359375,
+                                            "AnchorY": -119.32220458984375
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267078374678476
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "MethodNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            -740.0,
+                                            40.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData",
+                                        "SubStyle": ".method"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{EB028A20-CD04-47A8-B15B-AAABFE5F3A5E}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267082669645772
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "MethodNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            1420.0,
+                                            360.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData",
+                                        "SubStyle": ".method"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{72A39C5E-B42C-4447-B852-9751DC09E413}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267086964613068
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "MethodNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            980.0,
+                                            160.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData",
+                                        "SubStyle": ".method"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{4193DF02-4AD3-451D-93C5-20A629EC406A}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267091259580364
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "TimeNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            -900.0,
+                                            -120.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{1C86BAF5-5CA3-473C-89A6-D5BDE9B485B3}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267095554547660
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            240.0,
+                                            60.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{3FBDB73B-F602-42B5-A563-C6E61895D340}"
+                                    },
+                                    "{D8BBE799-7E4D-495A-B69A-1E3940670891}": {
+                                        "$type": "ScriptEventReceiverHandlerNodeDescriptorSaveData",
+                                        "EventNames": [
+                                            [
+                                                {
+                                                    "Value": 1761637061
+                                                },
+                                                "MaskActivated"
+                                            ]
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267099849514956
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "MethodNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            -740.0,
+                                            -120.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData",
+                                        "SubStyle": ".method"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{86D43711-D809-429E-B4AE-1798E55CF967}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267104144482252
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "MathNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            540.0,
+                                            160.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{32FC0B5A-FF11-47D4-940C-900DB524E074}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267108439449548
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "MethodNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            980.0,
+                                            360.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData",
+                                        "SubStyle": ".method"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{5BF2BE63-8094-4961-A609-1B7BE9D4590C}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 267112734416844
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "MethodNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            1420.0,
+                                            160.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData",
+                                        "SubStyle": ".method"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{5D63AEBB-F97F-4B29-819A-49E8B39A017D}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 1193751928528844
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "StringNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            -120.0,
+                                            80.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{7559779A-84A6-412A-8F70-D5E0709A8BCA}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 1197394060795852
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "StringNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            -120.0,
+                                            300.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{C943C8E4-92C4-4F6F-96BA-32ACA510522A}"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "StatisticsHelper": {
+                        "InstanceCounter": [
+                            {
+                                "Key": 1678857492794516290,
+                                "Value": 1
+                            },
+                            {
+                                "Key": 3117476785392655547,
+                                "Value": 1
+                            },
+                            {
+                                "Key": 4199610336680704683,
+                                "Value": 1
+                            },
+                            {
+                                "Key": 10684225535275896474,
+                                "Value": 2
+                            },
+                            {
+                                "Key": 13774516552825800515,
+                                "Value": 2
+                            },
+                            {
+                                "Key": 13774516554665849160,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

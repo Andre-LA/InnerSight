@@ -50,6 +50,290 @@
         }
     },
     "Entities": {
+        "Entity_[2830240960704228]": {
+            "Id": "Entity_[2830240960704228]",
+            "Name": "Model",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10217849797084382178,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D327FB42-0319-50A5-96EA-5518AD930DB0}",
+                                    "subId": 278279097
+                                },
+                                "assetHint": "assets/models/blocks/default_assetspackinersight_0b20ded5_f9e1_5dec_a298_ef305e0d516c_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10696316693428572366
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 441707331392670184
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16099818795914351977
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2720061189608275307,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2096434686479122770
+                        },
+                        {
+                            "ComponentId": 9684727952972842759,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2720061189608275307,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 16099818795914351977,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 9779358433703033080,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 17588459347854994284,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 15895775079796387843,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 441707331392670184,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 10696316693428572366,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 5816125354872875855,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 3164945079465753487,
+                            "SortIndex": 10
+                        },
+                        {
+                            "ComponentId": 10217849797084382178,
+                            "SortIndex": 11
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17588459347854994284
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3164945079465753487,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{29E84DAC-B6F8-5E01-8032-3BBE79AF5C92}"
+                                        },
+                                        "assetHint": "assets/models/materials/stonewall.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9684727952972842759
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15895775079796387843
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 5816125354872875855,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{6F76AD4C-1CE3-5A60-AF94-C55590FF5E77}",
+                            "path": "Assets/ScriptCanvas/TestePorFavor.scriptcanvas"
+                        },
+                        "sourceName": "TestePorFavor.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{6F76AD4C-1CE3-5A60-AF94-C55590FF5E77}",
+                                "path": "Assets/ScriptCanvas/TestePorFavor.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "label": "BlueM"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{0AF52225-69DC-467B-9EB3-25F485833B53}"
+                                    },
+                                    "VariableName": "BlueM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "label": "NoneM"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{2EF0E4B9-C01E-4646-847E-1FC05EDE8930}"
+                                    },
+                                    "VariableName": "NoneM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "label": "RedM"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{55F7F14E-675E-4849-9A9E-F5659A167C9F}"
+                                    },
+                                    "VariableName": "RedM",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{29E84DAC-B6F8-5E01-8032-3BBE79AF5C92}"
+                                                },
+                                                "assetHint": "assets/models/materials/stonewall.azmaterial"
+                                            }
+                                        },
+                                        "label": "BlueM"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{0AF52225-69DC-467B-9EB3-25F485833B53}"
+                                    },
+                                    "VariableName": "BlueM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{F9960728-D2C1-513D-B790-69A75EB2D5A9}"
+                                                },
+                                                "assetHint": "assets/models/materials/marble.azmaterial"
+                                            }
+                                        },
+                                        "label": "NoneM"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{2EF0E4B9-C01E-4646-847E-1FC05EDE8930}"
+                                    },
+                                    "VariableName": "NoneM",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{C66E5214-A24B-4722-B7F0-5991E6F8F163}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignment",
+                                        "value": {
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{D63BEB3D-92B5-5F52-8AA2-A6D2696004C3}"
+                                                },
+                                                "assetHint": "assets/models/materials/stonewalldark.azmaterial"
+                                            }
+                                        },
+                                        "label": "RedM"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{55F7F14E-675E-4849-9A9E-F5659A167C9F}"
+                                    },
+                                    "VariableName": "RedM",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9779358433703033080
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2096434686479122770,
+                    "Parent Entity": "Entity_[63979674457897]",
+                    "Transform Data": {
+                        "UniformScale": 100.0
+                    }
+                }
+            }
+        },
         "Entity_[63979674457897]": {
             "Id": "Entity_[63979674457897]",
             "Name": "DoorFrameTop",
@@ -66,12 +350,61 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 15374907364585432458,
                     "Child Entity Order": [
-                        "Instance_[58838598604585]/ContainerEntity"
+                        "Entity_[2830240960704228]"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 7279909706504884204
+                    "Id": 7279909706504884204,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6833867870675702279
+                        },
+                        {
+                            "ComponentId": 705744611673646603,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7279909706504884204,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 15374907364585432458,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 804805499057982909,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 5356702124034495733,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 17887515060555457328,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 18216434441379790920,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 9267859562676682630,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 8789599554567940235,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 6653344985901784038,
+                            "SortIndex": 10
+                        },
+                        {
+                            "ComponentId": 17273102221230162496,
+                            "SortIndex": 11
+                        }
+                    ]
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
@@ -95,58 +428,6 @@
                     "Parent Entity": "ContainerEntity"
                 }
             }
-        }
-    },
-    "Instances": {
-        "Instance_[58838598604585]": {
-            "Source": "Prefabs/Blocks/Passable_Block.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[63979674457897]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetId/guid",
-                    "value": "{29E84DAC-B6F8-5E01-8032-3BBE79AF5C92}"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/stonewall.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetId/guid",
-                    "value": "{D63BEB3D-92B5-5F52-8AA2-A6D2696004C3}"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/stonewalldark.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorVisibilityComponent/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
-                    "value": 278279097
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
-                    "value": "assets/models/blocks/default_assetspackinersight_0b20ded5_f9e1_5dec_a298_ef305e0d516c_.fbx.azmodel"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/stonewall.azmaterial"
-                }
-            ]
         }
     }
 }
