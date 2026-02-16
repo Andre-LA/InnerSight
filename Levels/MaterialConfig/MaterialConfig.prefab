@@ -22,13 +22,11 @@
                     "Entity_[1176639161715]",
                     "Instance_[477891586418059]/ContainerEntity",
                     "Instance_[477900176352651]/ContainerEntity",
-                    "Instance_[477994665633163]/ContainerEntity",
                     "Instance_[478308198245771]/ContainerEntity",
                     "Instance_[478750579877259]/ContainerEntity",
                     "Instance_[478883723863435]/ContainerEntity",
                     "Instance_[479072702424459]/ContainerEntity",
                     "Instance_[479141421901195]/ContainerEntity",
-                    "Instance_[479184371574155]/ContainerEntity",
                     "Instance_[479313220593035]/ContainerEntity",
                     "Instance_[479553738761611]/ContainerEntity",
                     "Instance_[479622458238347]/ContainerEntity",
@@ -36,7 +34,8 @@
                     "Instance_[479785666995595]/ContainerEntity",
                     "Instance_[479845796537739]/ContainerEntity",
                     "Instance_[479871566341515]/ContainerEntity",
-                    "Instance_[479905926079883]/ContainerEntity"
+                    "Instance_[479905926079883]/ContainerEntity",
+                    "Instance_[634240119437426]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -544,65 +543,6 @@
                 }
             ]
         },
-        "Instance_[477994665633163]": {
-            "Source": "Prefabs/Blocks/Intanced/DoorFrameBotton.prefab",
-            "Patches": [
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/0"
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0"
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overridesUnused/0",
-                    "value": {
-                        "Datum": {
-                            "isOverloadedStorage": false,
-                            "scriptCanvasType": {
-                                "m_type": 1,
-                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
-                            },
-                            "isNullPointer": false,
-                            "$type": "EntityId",
-                            "value": "Entity_[2935546889075362]",
-                            "label": "DetectPlayer"
-                        },
-                        "InputControlVisibility": {
-                            "Value": 850104567
-                        },
-                        "ExposureCategory": "",
-                        "SortPriority": -1,
-                        "ReplicaNetProps": {
-                            "m_isSynchronized": false
-                        },
-                        "VariableId": {
-                            "m_id": "{50C878FA-9D4C-44D8-B590-0FFA866278DB}"
-                        },
-                        "VariableName": "DetectPlayer",
-                        "Scope": 0,
-                        "InitialValueSource": 1
-                    }
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[58838598604585]/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[60500750948137]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/stonewall.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 4.0
-                }
-            ]
-        },
         "Instance_[478308198245771]": {
             "Source": "Prefabs/Blocks/Intanced/DoorFrameTop.prefab",
             "Patches": [
@@ -727,21 +667,6 @@
                 }
             ]
         },
-        "Instance_[479184371574155]": {
-            "Source": "Prefabs/Blocks/Intanced/MainMenu.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 16.0
-                }
-            ]
-        },
         "Instance_[479313220593035]": {
             "Source": "Prefabs/Blocks/Intanced/Path.prefab",
             "Patches": [
@@ -857,11 +782,6 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Instances/Instance_[53706112685865]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "assets/models/materials/stonewall.azmaterial"
-                },
-                {
-                    "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[1146574390643]"
                 },
@@ -884,6 +804,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
                     "value": 32.0
+                }
+            ]
+        },
+        "Instance_[634240119437426]": {
+            "Source": "Prefabs/Blocks/Intanced/DoorFrameBotton.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 4.0
                 }
             ]
         }
