@@ -174,6 +174,7 @@
                     "Controller": {
                         "Configuration": {
                             "Enabled": true,
+                            "Knee": 0.4699999988079071,
                             "Intensity": 0.3499999940395355,
                             "BicubicEnabled": true
                         }
