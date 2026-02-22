@@ -89,7 +89,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 5943916590433253802,
                     "Child Entity Order": [
-                        "Entity_[68291821623081]"
+                        "Instance_[177701239243373]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -98,8 +98,7 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 6024510267119881841,
-                    "Locked": true
+                    "Id": 6024510267119881841
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -123,86 +122,433 @@
                     "Parent Entity": "ContainerEntity"
                 }
             }
-        },
-        "Entity_[68291821623081]": {
-            "Id": "Entity_[68291821623081]",
-            "Name": "Bridge",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 3770330798643209661,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
+        }
+    },
+    "Instances": {
+        "Instance_[177701239243373]": {
+            "Source": "Prefabs/Blocks/Passable_Block.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[68287526655785]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
+                    "value": "{801D37C7-69F6-5160-AFDC-7EEFEE269871}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
+                    "value": 276288313
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/models/blocks/default_assetsbridge_8f507c0b_03dd_50e3_96d5_7331bf91dcd0_.fbx.azmodel"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 4294967295
+                        },
+                        "Value": {
+                            "MaterialAsset": {
                                 "assetId": {
-                                    "guid": "{801D37C7-69F6-5160-AFDC-7EEFEE269871}",
-                                    "subId": 276288313
+                                    "guid": "{FFF29C11-2647-58ED-BBA8-3723852A1F36}",
+                                    "subId": 0
                                 },
-                                "assetHint": "assets/models/blocks/default_assetsbridge_8f507c0b_03dd_50e3_96d5_7331bf91dcd0_.fbx.azmodel"
-                            }
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/models/materials/wood01.azmaterial"
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
                         }
                     }
                 },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 10247456949491147202
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{FFF29C11-2647-58ED-BBA8-3723852A1F36}"
                 },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 16964082254319626718
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/wood01.azmaterial"
                 },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17564186533445325246
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{F9960728-D2C1-513D-B790-69A75EB2D5A9}"
                 },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8638068788628278185
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/marble.azmaterial"
                 },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 16341161246037264909,
-                    "Locked": true
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetId/guid",
+                    "value": "{FFF29C11-2647-58ED-BBA8-3723852A1F36}"
                 },
-                "EditorMaterialComponent": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 9443832688107464703,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": {
-                                "{}": {
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{FFF29C11-2647-58ED-BBA8-3723852A1F36}"
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
+                    "value": "assets/models/materials/wood01.azmaterial"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[206082383135341]",
+                    "value": {
+                        "Id": "Entity_[206082383135341]",
+                        "Name": "GroundCollider",
+                        "Components": {
+                            "EditorColliderComponent": {
+                                "$type": "EditorColliderComponent",
+                                "Id": 7857916847608483692,
+                                "ColliderConfiguration": {
+                                    "CollisionLayer": {
+                                        "Index": 0
+                                    },
+                                    "CollisionGroupId": {
+                                        "GroupId": "{00000000-0000-0000-0000-000000000000}"
+                                    },
+                                    "Visible": false,
+                                    "Trigger": false,
+                                    "Simulated": true,
+                                    "DummySimulated": false,
+                                    "InSceneQueries": true,
+                                    "Exclusive": true,
+                                    "Position": [
+                                        0.0,
+                                        0.0,
+                                        0.07000000029802322
+                                    ],
+                                    "Rotation": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0
+                                    ],
+                                    "MaterialSlots": {
+                                        "Slots": [
+                                            {
+                                                "Name": "Entire object",
+                                                "MaterialAsset": {
+                                                    "assetId": {
+                                                        "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                        "subId": 0
+                                                    },
+                                                    "loadBehavior": "QueueLoad",
+                                                    "assetHint": ""
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "propertyVisibilityFlags": 255,
+                                    "ColliderTag": "",
+                                    "RestOffset": 0.0,
+                                    "ContactOffset": 0.019999999552965164
+                                },
+                                "ShapeConfiguration": {
+                                    "ShapeType": 1,
+                                    "Sphere": {
+                                        "Scale": [
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Radius": 0.5
+                                    },
+                                    "Box": {
+                                        "Scale": [
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Configuration": [
+                                            1.0,
+                                            1.0,
+                                            0.15000000596046448
+                                        ]
+                                    },
+                                    "Capsule": {
+                                        "Scale": [
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Height": 1.0,
+                                        "Radius": 0.25
+                                    },
+                                    "Cylinder": {
+                                        "Configuration": {
+                                            "Scale": [
+                                                1.0,
+                                                1.0,
+                                                1.0
+                                            ],
+                                            "CookedData": "",
+                                            "Type": 0
                                         },
-                                        "assetHint": "assets/models/materials/wood01.azmaterial"
-                                    }
+                                        "Subdivision": 16,
+                                        "Height": 1.0,
+                                        "Radius": 1.0
+                                    },
+                                    "PhysicsAsset": {
+                                        "Asset": {
+                                            "assetId": {
+                                                "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                "subId": 0
+                                            },
+                                            "loadBehavior": "QueueLoad",
+                                            "assetHint": ""
+                                        },
+                                        "Configuration": {
+                                            "Scale": [
+                                                1.0,
+                                                1.0,
+                                                1.0
+                                            ],
+                                            "PhysicsAsset": {
+                                                "assetId": {
+                                                    "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                    "subId": 0
+                                                },
+                                                "loadBehavior": "PreLoad",
+                                                "assetHint": ""
+                                            },
+                                            "AssetScale": [
+                                                1.0,
+                                                1.0,
+                                                1.0
+                                            ],
+                                            "UseMaterialsFromAsset": true,
+                                            "SubdivisionLevel": 4
+                                        }
+                                    },
+                                    "HasNonUniformScale": false,
+                                    "SubdivisionLevel": 4
+                                },
+                                "DebugDrawSettings": {
+                                    "LocallyEnabled": true
+                                },
+                                "ComponentMode": {},
+                                "HasNonUniformScale": false
+                            },
+                            "EditorDisabledCompositionComponent": {
+                                "$type": "EditorDisabledCompositionComponent",
+                                "Id": 8355630301884778625,
+                                "DisabledComponents": []
+                            },
+                            "EditorEntityIconComponent": {
+                                "$type": "EditorEntityIconComponent",
+                                "Id": 2479417738109860397,
+                                "EntityIconAssetId": {
+                                    "guid": "{00000000-0000-0000-0000-000000000000}",
+                                    "subId": 0
                                 }
+                            },
+                            "EditorEntitySortComponent": {
+                                "$type": "EditorEntitySortComponent",
+                                "Id": 12588937653773183255,
+                                "Child Entity Order": []
+                            },
+                            "EditorInspectorComponent": {
+                                "$type": "EditorInspectorComponent",
+                                "Id": 3463225320378173962,
+                                "ComponentOrderEntryArray": []
+                            },
+                            "EditorLockComponent": {
+                                "$type": "EditorLockComponent",
+                                "Id": 9332621838685384600,
+                                "Locked": true
+                            },
+                            "EditorOnlyEntityComponent": {
+                                "$type": "EditorOnlyEntityComponent",
+                                "Id": 7300881683825296387,
+                                "IsEditorOnly": false
+                            },
+                            "EditorPendingCompositionComponent": {
+                                "$type": "EditorPendingCompositionComponent",
+                                "Id": 17950942695131688258,
+                                "PendingComponents": []
+                            },
+                            "EditorStaticRigidBodyComponent": {
+                                "$type": "EditorStaticRigidBodyComponent",
+                                "Id": 3261305162144122646
+                            },
+                            "EditorVisibilityComponent": {
+                                "$type": "EditorVisibilityComponent",
+                                "Id": 14603699156439883532,
+                                "VisibilityFlag": true
+                            },
+                            "TransformComponent": {
+                                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                                "Id": 3118886343587858673,
+                                "Parent Entity": "Entity_[217490052646069]",
+                                "Transform Data": {
+                                    "Translate": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rotate": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Scale": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Locked": false,
+                                    "UniformScale": 1.0
+                                },
+                                "Parent Activation Transform Mode": 0,
+                                "IsStatic": false,
+                                "InterpolatePosition": 0,
+                                "InterpolateRotation": 0
                             }
-                        }
+                        },
+                        "IsRuntimeActive": true
                     }
                 },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 9814631832872089569
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/2",
+                    "value": "Entity_[206082383135341]"
                 },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 3394061644117800719
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/1",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 1,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "EntityId",
+                            "value": "",
+                            "label": "InversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 2755429085
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{6606CCB6-5480-43FA-A829-6BC8A6CF3EDA}"
+                        },
+                        "VariableName": "InversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
                 },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 10020572896201383085
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/2",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 0,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "bool",
+                            "value": false,
+                            "label": "UseInversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 2755429085
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{963D57FE-0DA0-421D-B2D7-34229E94C419}"
+                        },
+                        "VariableName": "UseInversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
                 },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 16054361129589515492,
-                    "Parent Entity": "Entity_[68287526655785]",
-                    "Transform Data": {
-                        "UniformScale": 100.0
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 1,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "EntityId",
+                            "value": "Entity_[206082383135341]",
+                            "label": "InversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 850104567
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{6606CCB6-5480-43FA-A829-6BC8A6CF3EDA}"
+                        },
+                        "VariableName": "InversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 0,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "bool",
+                            "value": true,
+                            "label": "UseInversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 850104567
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{963D57FE-0DA0-421D-B2D7-34229E94C419}"
+                        },
+                        "VariableName": "UseInversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
                     }
                 }
-            }
+            ]
         }
     }
 }
