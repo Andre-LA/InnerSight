@@ -75,7 +75,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 5356702124034495733
+                    "Id": 5356702124034495733,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -101,11 +102,6 @@
         "Instance_[58838598604585]": {
             "Source": "Prefabs/Blocks/Passable_Block.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[62296047277865]"
-                },
                 {
                     "op": "replace",
                     "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
@@ -172,6 +168,145 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
                     "value": "assets/models/materials/stonewalldark.azmaterial"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/2",
+                    "value": "Entity_[2898883128028900]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/1",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 1,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "EntityId",
+                            "value": "",
+                            "label": "InversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 2755429085
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{6606CCB6-5480-43FA-A829-6BC8A6CF3EDA}"
+                        },
+                        "VariableName": "InversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/2",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 0,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "bool",
+                            "value": false,
+                            "label": "UseInversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 2755429085
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{963D57FE-0DA0-421D-B2D7-34229E94C419}"
+                        },
+                        "VariableName": "UseInversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 1,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "EntityId",
+                            "value": "Entity_[2898883128028900]",
+                            "label": "InversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 850104567
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{6606CCB6-5480-43FA-A829-6BC8A6CF3EDA}"
+                        },
+                        "VariableName": "InversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 0,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "bool",
+                            "value": true,
+                            "label": "UseInversedPhysics"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 850104567
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{963D57FE-0DA0-421D-B2D7-34229E94C419}"
+                        },
+                        "VariableName": "UseInversedPhysics",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[62296047277865]"
                 },
                 {
                     "op": "add",
@@ -339,7 +474,7 @@
                             "EditorLockComponent": {
                                 "$type": "EditorLockComponent",
                                 "Id": 9185722435750812987,
-                                "Locked": false
+                                "Locked": true
                             },
                             "EditorOnlyEntityComponent": {
                                 "$type": "EditorOnlyEntityComponent",
@@ -390,135 +525,6 @@
                             }
                         },
                         "IsRuntimeActive": true
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/2",
-                    "value": "Entity_[2898883128028900]"
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/1",
-                    "value": {
-                        "Datum": {
-                            "isOverloadedStorage": false,
-                            "scriptCanvasType": {
-                                "m_type": 1,
-                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
-                            },
-                            "isNullPointer": false,
-                            "$type": "EntityId",
-                            "value": "",
-                            "label": "InversedPhysics"
-                        },
-                        "InputControlVisibility": {
-                            "Value": 2755429085
-                        },
-                        "ExposureCategory": "",
-                        "SortPriority": -1,
-                        "ReplicaNetProps": {
-                            "m_isSynchronized": false
-                        },
-                        "VariableId": {
-                            "m_id": "{6606CCB6-5480-43FA-A829-6BC8A6CF3EDA}"
-                        },
-                        "VariableName": "InversedPhysics",
-                        "Scope": 0,
-                        "InitialValueSource": 1
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/2",
-                    "value": {
-                        "Datum": {
-                            "isOverloadedStorage": false,
-                            "scriptCanvasType": {
-                                "m_type": 0,
-                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
-                            },
-                            "isNullPointer": false,
-                            "$type": "bool",
-                            "value": false,
-                            "label": "UseInversedPhysics"
-                        },
-                        "InputControlVisibility": {
-                            "Value": 2755429085
-                        },
-                        "ExposureCategory": "",
-                        "SortPriority": -1,
-                        "ReplicaNetProps": {
-                            "m_isSynchronized": false
-                        },
-                        "VariableId": {
-                            "m_id": "{963D57FE-0DA0-421D-B2D7-34229E94C419}"
-                        },
-                        "VariableName": "UseInversedPhysics",
-                        "Scope": 0,
-                        "InitialValueSource": 1
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/1",
-                    "value": {
-                        "Datum": {
-                            "isOverloadedStorage": false,
-                            "scriptCanvasType": {
-                                "m_type": 1,
-                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
-                            },
-                            "isNullPointer": false,
-                            "$type": "EntityId",
-                            "value": "Entity_[2898883128028900]",
-                            "label": "InversedPhysics"
-                        },
-                        "InputControlVisibility": {
-                            "Value": 850104567
-                        },
-                        "ExposureCategory": "",
-                        "SortPriority": -1,
-                        "ReplicaNetProps": {
-                            "m_isSynchronized": false
-                        },
-                        "VariableId": {
-                            "m_id": "{6606CCB6-5480-43FA-A829-6BC8A6CF3EDA}"
-                        },
-                        "VariableName": "InversedPhysics",
-                        "Scope": 0,
-                        "InitialValueSource": 1
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2",
-                    "value": {
-                        "Datum": {
-                            "isOverloadedStorage": false,
-                            "scriptCanvasType": {
-                                "m_type": 0,
-                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
-                            },
-                            "isNullPointer": false,
-                            "$type": "bool",
-                            "value": true,
-                            "label": "UseInversedPhysics"
-                        },
-                        "InputControlVisibility": {
-                            "Value": 850104567
-                        },
-                        "ExposureCategory": "",
-                        "SortPriority": -1,
-                        "ReplicaNetProps": {
-                            "m_isSynchronized": false
-                        },
-                        "VariableId": {
-                            "m_id": "{963D57FE-0DA0-421D-B2D7-34229E94C419}"
-                        },
-                        "VariableName": "UseInversedPhysics",
-                        "Scope": 0,
-                        "InitialValueSource": 1
                     }
                 }
             ]

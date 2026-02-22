@@ -87,7 +87,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 16790141813376649035
+                    "Id": 16790141813376649035,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -205,7 +206,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 16790141813376649035
+                    "Id": 16790141813376649035,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -315,7 +317,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 7775963802346918646
+                    "Id": 7775963802346918646,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -399,7 +402,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 7775963802346918646
+                    "Id": 7775963802346918646,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -478,7 +482,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 7775963802346918646
+                    "Id": 7775963802346918646,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -567,7 +572,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 7775963802346918646
+                    "Id": 7775963802346918646,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -762,7 +768,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 3407525451400927392
+                    "Id": 3407525451400927392,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",

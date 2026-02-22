@@ -75,7 +75,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 10384062106359343145
+                    "Id": 10384062106359343145,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -101,11 +102,6 @@
         "Instance_[47452640302889]": {
             "Source": "Prefabs/Blocks/SlopeBaseStatic.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[48096885397289]"
-                },
                 {
                     "op": "add",
                     "path": "/Instances/Instance_[1252169149088949]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
@@ -147,6 +143,16 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[1252169149088949]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
                     "value": "assets/models/materials/darksoil.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[48096885397289]"
                 }
             ]
         }

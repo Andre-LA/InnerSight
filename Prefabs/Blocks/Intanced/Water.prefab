@@ -75,7 +75,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 2723201736486538145
+                    "Id": 2723201736486538145,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -133,7 +134,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 13026452005284612
+                    "Id": 13026452005284612,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -145,7 +147,8 @@
                                     "MaterialAsset": {
                                         "assetId": {
                                             "guid": "{3AFC3614-3461-5633-99CE-B550B226CB4E}"
-                                        }
+                                        },
+                                        "assetHint": "assets/models/materials/riverwater.azmaterial"
                                     }
                                 }
                             }

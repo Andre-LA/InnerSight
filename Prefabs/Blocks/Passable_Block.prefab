@@ -76,7 +76,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 8847689308470836908
+                    "Id": 8847689308470836908,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -103,6 +104,109 @@
         "Instance_[3092311314232417]": {
             "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
             "Patches": [
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2935546889075362]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent",
+                    "value": {
+                        "$type": "EditorScriptCanvasComponent",
+                        "Id": 4586515272245849778,
+                        "configuration": {
+                            "sourceHandle": {
+                                "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
+                                "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
+                            },
+                            "sourceName": "PassableBlockCtrl.scriptcanvas",
+                            "propertyOverrides": {
+                                "source": {
+                                    "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
+                                    "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
+                                },
+                                "variables": [
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 1,
+                                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "EntityId",
+                                            "value": "",
+                                            "label": "DetectPlayer"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 2755429085
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{50C878FA-9D4C-44D8-B590-0FFA866278DB}"
+                                        },
+                                        "VariableName": "DetectPlayer",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    }
+                                ],
+                                "entityId": [],
+                                "overrides": [
+                                    {
+                                        "Datum": {
+                                            "isOverloadedStorage": false,
+                                            "scriptCanvasType": {
+                                                "m_type": 1,
+                                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                                            },
+                                            "isNullPointer": false,
+                                            "$type": "EntityId",
+                                            "value": "Entity_[2935546889075362]",
+                                            "label": "DetectPlayer"
+                                        },
+                                        "InputControlVisibility": {
+                                            "Value": 850104567
+                                        },
+                                        "ExposureCategory": "",
+                                        "SortPriority": -1,
+                                        "ReplicaNetProps": {
+                                            "m_isSynchronized": false
+                                        },
+                                        "VariableId": {
+                                            "m_id": "{50C878FA-9D4C-44D8-B590-0FFA866278DB}"
+                                        },
+                                        "VariableName": "DetectPlayer",
+                                        "Scope": 0,
+                                        "InitialValueSource": 1
+                                    }
+                                ],
+                                "overridesUnused": [],
+                                "dependencies": []
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
+                    "value": {
+                        "$type": "EditorTagComponent",
+                        "Id": 8496739069460676994,
+                        "Tags": [
+                            "Passable"
+                        ]
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
@@ -274,7 +378,7 @@
                             "EditorLockComponent": {
                                 "$type": "EditorLockComponent",
                                 "Id": 15344387090745407802,
-                                "Locked": false
+                                "Locked": true
                             },
                             "EditorOnlyEntityComponent": {
                                 "$type": "EditorOnlyEntityComponent",
@@ -325,104 +429,6 @@
                             }
                         },
                         "IsRuntimeActive": true
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/1",
-                    "value": "Entity_[2935546889075362]"
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent",
-                    "value": {
-                        "$type": "EditorScriptCanvasComponent",
-                        "Id": 4586515272245849778,
-                        "configuration": {
-                            "sourceHandle": {
-                                "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
-                                "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
-                            },
-                            "sourceName": "PassableBlockCtrl.scriptcanvas",
-                            "propertyOverrides": {
-                                "source": {
-                                    "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
-                                    "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
-                                },
-                                "variables": [
-                                    {
-                                        "Datum": {
-                                            "isOverloadedStorage": false,
-                                            "scriptCanvasType": {
-                                                "m_type": 1,
-                                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
-                                            },
-                                            "isNullPointer": false,
-                                            "$type": "EntityId",
-                                            "value": "",
-                                            "label": "DetectPlayer"
-                                        },
-                                        "InputControlVisibility": {
-                                            "Value": 2755429085
-                                        },
-                                        "ExposureCategory": "",
-                                        "SortPriority": -1,
-                                        "ReplicaNetProps": {
-                                            "m_isSynchronized": false
-                                        },
-                                        "VariableId": {
-                                            "m_id": "{50C878FA-9D4C-44D8-B590-0FFA866278DB}"
-                                        },
-                                        "VariableName": "DetectPlayer",
-                                        "Scope": 0,
-                                        "InitialValueSource": 1
-                                    }
-                                ],
-                                "entityId": [],
-                                "overrides": [
-                                    {
-                                        "Datum": {
-                                            "isOverloadedStorage": false,
-                                            "scriptCanvasType": {
-                                                "m_type": 1,
-                                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
-                                            },
-                                            "isNullPointer": false,
-                                            "$type": "EntityId",
-                                            "value": "Entity_[2935546889075362]",
-                                            "label": "DetectPlayer"
-                                        },
-                                        "InputControlVisibility": {
-                                            "Value": 850104567
-                                        },
-                                        "ExposureCategory": "",
-                                        "SortPriority": -1,
-                                        "ReplicaNetProps": {
-                                            "m_isSynchronized": false
-                                        },
-                                        "VariableId": {
-                                            "m_id": "{50C878FA-9D4C-44D8-B590-0FFA866278DB}"
-                                        },
-                                        "VariableName": "DetectPlayer",
-                                        "Scope": 0,
-                                        "InitialValueSource": 1
-                                    }
-                                ],
-                                "overridesUnused": [],
-                                "dependencies": []
-                            }
-                        }
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
-                    "value": {
-                        "$type": "EditorTagComponent",
-                        "Id": 8496739069460676994,
-                        "Tags": [
-                            "Passable"
-                        ]
                     }
                 }
             ]

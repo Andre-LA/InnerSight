@@ -76,7 +76,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 4886829065552651981
+                    "Id": 4886829065552651981,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -103,11 +104,6 @@
         "Instance_[1532883030331416]": {
             "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1532908800135192]"
-                },
                 {
                     "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
@@ -138,6 +134,16 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/TransformComponent/Transform Data/UniformScale",
                     "value": 100.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1532908800135192]"
                 }
             ]
         }

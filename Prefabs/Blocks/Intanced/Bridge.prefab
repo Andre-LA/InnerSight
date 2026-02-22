@@ -98,7 +98,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 6024510267119881841
+                    "Id": 6024510267119881841,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -160,7 +161,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 16341161246037264909
+                    "Id": 16341161246037264909,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",

@@ -76,7 +76,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 982809612030897275
+                    "Id": 982809612030897275,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -104,11 +105,6 @@
             "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
             "Patches": [
                 {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[337145628423265]"
-                },
-                {
                     "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/1",
                     "value": "Entity_[55351085160233]"
@@ -123,6 +119,16 @@
                             "Ladder"
                         ]
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[337145628423265]"
                 },
                 {
                     "op": "add",
@@ -193,7 +199,7 @@
                             "EditorLockComponent": {
                                 "$type": "EditorLockComponent",
                                 "Id": 13616974537757425685,
-                                "Locked": false
+                                "Locked": true
                             },
                             "EditorMaterialComponent": {
                                 "$type": "EditorMaterialComponent",
@@ -213,7 +219,7 @@
                                                             "subId": 0
                                                         },
                                                         "loadBehavior": "QueueLoad",
-                                                        "assetHint": ""
+                                                        "assetHint": "assets/models/materials/stonewalldark-copy1.azmaterial"
                                                     },
                                                     "PropertyOverrides": [],
                                                     "ModelUvOverrides": []

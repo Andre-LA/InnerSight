@@ -75,7 +75,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 15917772231897713836
+                    "Id": 15917772231897713836,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -101,11 +102,6 @@
         "Instance_[57356834887465]": {
             "Source": "Prefabs/Blocks/Destructable_Block.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[58348972332841]"
-                },
                 {
                     "op": "add",
                     "path": "/Instances/Instance_[1532883030331416]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
@@ -147,6 +143,16 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[1532883030331416]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/2/Datum/value/MaterialAsset/assetHint",
                     "value": "assets/models/materials/destructblewall.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[58348972332841]"
                 }
             ]
         }

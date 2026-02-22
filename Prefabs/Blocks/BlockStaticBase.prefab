@@ -76,7 +76,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 16393862281682518553
+                    "Id": 16393862281682518553,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -103,11 +104,6 @@
         "Instance_[218091348067509]": {
             "Source": "Prefabs/Blocks/BlockBase.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[218108527936693]"
-                },
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[217490052646069]/Components/EditorColliderComponent",
@@ -365,7 +361,7 @@
                                 "SupportRayIntersection": false,
                                 "LodType": 0,
                                 "LodOverride": 0,
-                                "MinimumScreenCoverage": 0.0009259259095415473,
+                                "MinimumScreenCoverage": 0.0009259259095415472,
                                 "QualityDecayRate": 0.5,
                                 "LightingChannelConfig": {
                                     "lightingChannelFlags": [
@@ -655,6 +651,16 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[217494347613365]/Components/TransformComponent/Transform Data/UniformScale",
                     "value": 100.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[218108527936693]"
                 }
             ]
         }
