@@ -98,7 +98,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 6024510267119881841
+                    "Id": 6024510267119881841,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -128,11 +129,6 @@
         "Instance_[177701239243373]": {
             "Source": "Prefabs/Blocks/Passable_Block.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[68287526655785]"
-                },
                 {
                     "op": "replace",
                     "path": "/Instances/Instance_[3092311314232417]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
@@ -547,6 +543,16 @@
                         "Scope": 0,
                         "InitialValueSource": 1
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[68287526655785]"
                 }
             ]
         }

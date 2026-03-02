@@ -76,7 +76,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 12516366553705645344
+                    "Id": 12516366553705645344,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -103,11 +104,6 @@
         "Instance_[361465060085784]": {
             "Source": "Prefabs/Blocks/WorldMaskBase.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[361482239954968]"
-                },
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[359012633759768]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/0",
@@ -196,6 +192,16 @@
                             "ModelUvOverrides": []
                         }
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[361482239954968]"
                 }
             ]
         }

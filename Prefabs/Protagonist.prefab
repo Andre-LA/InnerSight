@@ -76,7 +76,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 2493398706368687500
+                    "Id": 2493398706368687500,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -130,7 +131,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 10958889697498601392
+                    "Id": 10958889697498601392,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -177,7 +179,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 10958889697498601392
+                    "Id": 10958889697498601392,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -241,7 +244,8 @@
                 },
                 "Component_[9439770997198325425]": {
                     "$type": "EditorLockComponent",
-                    "Id": 9439770997198325425
+                    "Id": 9439770997198325425,
+                    "Locked": true
                 },
                 "EditorCharacterControllerComponent": {
                     "$type": "EditorCharacterControllerComponent",
@@ -562,7 +566,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 15245028687149663185
+                    "Id": 15245028687149663185,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -644,7 +649,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 15464337435166526472
+                    "Id": 15464337435166526472,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
@@ -689,6 +695,11 @@
             "Patches": [
                 {
                     "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[1744369176600]"
                 },
@@ -701,6 +712,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
                     "value": 2.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1598340288536]/Components/EditorLockComponent/Locked",
+                    "value": true
                 },
                 {
                     "op": "add",
@@ -731,18 +747,8 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[1980592377880]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": -2.384185791015625e-7
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
-                    "value": 2.5
+                    "path": "/Entities/Entity_[1598340288536]/Components/EditorLockComponent/Locked",
+                    "value": true
                 },
                 {
                     "op": "add",
@@ -765,6 +771,26 @@
                             "ModelUvOverrides": []
                         }
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/EditorLockComponent/Locked",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1980592377880]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.5
                 }
             ]
         }

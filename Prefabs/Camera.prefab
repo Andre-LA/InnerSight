@@ -75,7 +75,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 4540998052207848586
+                    "Id": 4540998052207848586,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -128,7 +129,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 11299523498327606402
+                    "Id": 11299523498327606402,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -228,7 +230,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 2662003408693170078
+                    "Id": 2662003408693170078,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -274,7 +277,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 10244344629975217920
+                    "Id": 10244344629975217920,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -312,7 +316,8 @@
                 },
                 "Component_[17187464423780271193]": {
                     "$type": "EditorLockComponent",
-                    "Id": 17187464423780271193
+                    "Id": 17187464423780271193,
+                    "Locked": true
                 },
                 "Component_[17495696818315413311]": {
                     "$type": "EditorEntitySortComponent",

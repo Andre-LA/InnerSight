@@ -100,7 +100,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 7205278335937132487
+                    "Id": 7205278335937132487,
+                    "Locked": true
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -123,7 +124,48 @@
                             "source": {
                                 "id": "{311C2BD0-39AA-5582-9978-953FA44F5E4B}",
                                 "path": "Assets/ScriptCanvas/WorldMask.scriptcanvas"
-                            }
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZStd::string",
+                                        "value": "",
+                                        "label": "MaskColor"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{CC8FF238-33EB-47E7-8798-2E9B485DB263}"
+                                    },
+                                    "VariableName": "MaskColor",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZStd::string",
+                                        "value": "",
+                                        "label": "MaskColor"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{CC8FF238-33EB-47E7-8798-2E9B485DB263}"
+                                    },
+                                    "VariableName": "MaskColor",
+                                    "InitialValueSource": 1
+                                }
+                            ]
                         }
                     }
                 },
@@ -186,7 +228,8 @@
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 16447621643690083546
+                    "Id": 16447621643690083546,
+                    "Locked": true
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
